@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 90bc9df0fd7929040837e1c01ff7f454
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1638902034472126391
+    second: TheBulletDodgeRoll_0
+  - first:
+      213: -3888845694838275613
+    second: TheBulletDodgeRoll_1
+  - first:
+      213: 1378502002441462868
+    second: TheBulletDodgeRoll_2
+  - first:
+      213: -4864771299390929878
+    second: TheBulletDodgeRoll_3
+  - first:
+      213: 3281046266306909892
+    second: TheBulletDodgeRoll_4
+  - first:
+      213: 7964883791608259543
+    second: TheBulletDodgeRoll_5
+  - first:
+      213: -4163106052734166865
+    second: TheBulletDodgeRoll_6
+  - first:
+      213: 1049626495691724737
+    second: TheBulletDodgeRoll_7
+  - first:
+      213: 8799954680317768168
+    second: TheBulletDodgeRoll_8
+  - first:
+      213: 1648349652422332875
+    second: TheBulletDodgeRoll_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 623
+        width: 194
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948bf9d68437149e0800000000000000
+      internalID: -1638902034472126391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 95
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e18bdcc17b080ac0800000000000000
+      internalID: -3888845694838275613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 143
+        width: 338
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45420b1844c612310800000000000000
+      internalID: 1378502002441462868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_3
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 175
+        width: 338
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24c942274cdc7cb0800000000000000
+      internalID: -4864771299390929878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_4
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 79
+        width: 338
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c658da023e988d20800000000000000
+      internalID: 3281046266306909892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_5
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 15
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a314db93f88e60800000000000000
+      internalID: 7964883791608259543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_6
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 31
+        width: 194
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa850842a1da936c0800000000000000
+      internalID: -4163106052734166865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_7
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 31
+        width: 274
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c71b869cb5019e00800000000000000
+      internalID: 1049626495691724737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_8
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 31
+        width: 306
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e170e75828bf1a70800000000000000
+      internalID: 8799954680317768168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheBulletDodgeRoll_9
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 31
+        width: 258
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1954a864d10e610800000000000000
+      internalID: 1648349652422332875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TheBulletDodgeRoll_0: -1638902034472126391
+      TheBulletDodgeRoll_1: -3888845694838275613
+      TheBulletDodgeRoll_2: 1378502002441462868
+      TheBulletDodgeRoll_3: -4864771299390929878
+      TheBulletDodgeRoll_4: 3281046266306909892
+      TheBulletDodgeRoll_5: 7964883791608259543
+      TheBulletDodgeRoll_6: -4163106052734166865
+      TheBulletDodgeRoll_7: 1049626495691724737
+      TheBulletDodgeRoll_8: 8799954680317768168
+      TheBulletDodgeRoll_9: 1648349652422332875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
