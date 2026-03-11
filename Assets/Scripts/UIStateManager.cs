@@ -1,56 +1,38 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using TMPro;
+using UnityEngine.InputSystem; // Usando el nuevo sistema de Input para consistencia
 
 public class UIStateManager : MonoBehaviour
 {
+    // [MODIFICADO] Eliminamos GameOver de aquí, ya que GameFlowManager lo gestionará
     public enum UIState
     {
-        MainMenu,
         InGame,
         Paused,
-        Options,
-        GameOver
+        Options
     }
 
     [Header("UI Panels")]
-
     [SerializeField] private GameObject inGamePanel;
     [SerializeField] private GameObject pausedPanel;
     [SerializeField] private GameObject optionsPanel;
-    [SerializeField] private GameObject gameOverPanel;
+    // [BORRADO] El gameOverPanel ya no se asigna aquí, se asigna en el GameFlowManager
 
     [Header("Info")]
-
     [SerializeField] private TextMeshProUGUI txtStateDebug;
 
     private UIState currentState;
 
     private void Start()
     {
+        // Iniciamos en InGame
         changeState(UIState.InGame);
     }
 
     private void Update()
     {
-
-        /*
-           if(Keyboard.current!=null && Keyboard.current.escapeKey.wasPressedThisFrame)
-           if (Keyboard.current.pKey.wasPressedThisFrame)
-           {
-               if (currentState == UIState.InGame)
-               {
-                   OnClickPause();
-               }
-               else if (currentState == UIState.Paused)
-               {
-                   OnClickResume();
-               }
-           }
-        */
-
-        // For testing purposes: Press Escape to toggle pause
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        // [OPTIMIZADO] Usamos el nuevo Input System como en tu PlayerStateManager para evitar mezclar sistemas
+        if (Keyboard.current != null && (Keyboard.current.escapeKey.wasPressedThisFrame || Keyboard.current.pKey.wasPressedThisFrame))
         {
             if (currentState == UIState.InGame)
             {
@@ -67,10 +49,10 @@ public class UIStateManager : MonoBehaviour
     {
         currentState = nextState;
 
+        // Desactivamos paneles antes de prender el correcto
         if (inGamePanel != null) inGamePanel.SetActive(false);
         if (pausedPanel != null) pausedPanel.SetActive(false);
         if (optionsPanel != null) optionsPanel.SetActive(false);
-        if (gameOverPanel != null) gameOverPanel.SetActive(false);
 
         switch (currentState)
         {
@@ -85,29 +67,35 @@ public class UIStateManager : MonoBehaviour
             case UIState.Options:
                 if (optionsPanel != null) optionsPanel.SetActive(true);
                 break;
-            case UIState.GameOver:
-                if (gameOverPanel != null) gameOverPanel.SetActive(true);
-                break;
         }
 
         if (txtStateDebug != null)
         {
-            txtStateDebug.text = $"State : {(currentState)}";
+            txtStateDebug.text = $"UI State: {currentState}";
         }
-
     }
+
+    // --- Métodos públicos para botones ---
 
     public void OnClickPause()
     {
         changeState(UIState.Paused);
     }
+
     public void OnClickResume()
     {
         changeState(UIState.InGame);
     }
-    public void OnBackToMenu()
+
+    public void OnClickOptions()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        changeState(UIState.Options);
     }
 
+    public void OnBackToMenu()
+    {
+        // Asegúrate de que el tiempo regrese a 1 antes de cambiar de escena
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
 }

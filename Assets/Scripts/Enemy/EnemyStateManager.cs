@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class EnemyStateManager : MonoBehaviour
 {
-    public enum EnemyState { Patrol, Chase, Attack }
+    public enum EnemyState
+    {
+        Patrol,
+        Chase,
+        Attack
+    }
 
     [Header("References")]
     [SerializeField] private Transform player;

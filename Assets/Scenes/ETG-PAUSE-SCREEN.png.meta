@@ -1,0 +1,7085 @@
+fileFormatVersion: 2
+guid: a0e0ed20a0d9e8b46b5d28751b487231
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3222141738265002479
+    second: ETG-PAUSE-SCREEN_0
+  - first:
+      213: 2480034973571760417
+    second: ETG-PAUSE-SCREEN_1
+  - first:
+      213: -4951928286235052461
+    second: ETG-PAUSE-SCREEN_2
+  - first:
+      213: -4214135833212706544
+    second: ETG-PAUSE-SCREEN_3
+  - first:
+      213: 7937398293960383251
+    second: ETG-PAUSE-SCREEN_4
+  - first:
+      213: -2801989313453128558
+    second: ETG-PAUSE-SCREEN_5
+  - first:
+      213: -3413611620280883049
+    second: ETG-PAUSE-SCREEN_6
+  - first:
+      213: 6911439919007737959
+    second: ETG-PAUSE-SCREEN_7
+  - first:
+      213: -8357170001953601503
+    second: ETG-PAUSE-SCREEN_8
+  - first:
+      213: -7830381722364837032
+    second: ETG-PAUSE-SCREEN_9
+  - first:
+      213: -5927514343192058407
+    second: ETG-PAUSE-SCREEN_10
+  - first:
+      213: 3466162554814816215
+    second: ETG-PAUSE-SCREEN_11
+  - first:
+      213: 8894268644835858148
+    second: ETG-PAUSE-SCREEN_12
+  - first:
+      213: 678963044855914171
+    second: ETG-PAUSE-SCREEN_13
+  - first:
+      213: 8978472207262528233
+    second: ETG-PAUSE-SCREEN_14
+  - first:
+      213: 7286213002556816808
+    second: ETG-PAUSE-SCREEN_15
+  - first:
+      213: 5646957713959866171
+    second: ETG-PAUSE-SCREEN_16
+  - first:
+      213: 1208122737578430156
+    second: ETG-PAUSE-SCREEN_17
+  - first:
+      213: -4859911599928085100
+    second: ETG-PAUSE-SCREEN_18
+  - first:
+      213: -3640636677820740315
+    second: ETG-PAUSE-SCREEN_19
+  - first:
+      213: -9106428428491172707
+    second: ETG-PAUSE-SCREEN_20
+  - first:
+      213: 5029934358211230725
+    second: ETG-PAUSE-SCREEN_21
+  - first:
+      213: 928808957757429486
+    second: ETG-PAUSE-SCREEN_22
+  - first:
+      213: 4831014994173684026
+    second: ETG-PAUSE-SCREEN_23
+  - first:
+      213: 205369428132629131
+    second: ETG-PAUSE-SCREEN_24
+  - first:
+      213: 1247725430857005770
+    second: ETG-PAUSE-SCREEN_25
+  - first:
+      213: 8557325819973004357
+    second: ETG-PAUSE-SCREEN_26
+  - first:
+      213: -3269993451482222518
+    second: ETG-PAUSE-SCREEN_27
+  - first:
+      213: 4977521415331847849
+    second: ETG-PAUSE-SCREEN_28
+  - first:
+      213: -2528150733699437312
+    second: ETG-PAUSE-SCREEN_29
+  - first:
+      213: -2794965111192687968
+    second: ETG-PAUSE-SCREEN_30
+  - first:
+      213: -1004465991888563092
+    second: ETG-PAUSE-SCREEN_31
+  - first:
+      213: -8245191767468944734
+    second: ETG-PAUSE-SCREEN_32
+  - first:
+      213: 7645176221914279070
+    second: ETG-PAUSE-SCREEN_33
+  - first:
+      213: -2656940074307076157
+    second: ETG-PAUSE-SCREEN_34
+  - first:
+      213: 8278362129623360726
+    second: ETG-PAUSE-SCREEN_35
+  - first:
+      213: -4302255399105144818
+    second: ETG-PAUSE-SCREEN_36
+  - first:
+      213: 483999251250820252
+    second: ETG-PAUSE-SCREEN_37
+  - first:
+      213: 4985003759018881685
+    second: ETG-PAUSE-SCREEN_38
+  - first:
+      213: 5155194657855721682
+    second: ETG-PAUSE-SCREEN_39
+  - first:
+      213: 5999773230647363832
+    second: ETG-PAUSE-SCREEN_40
+  - first:
+      213: 5050830728996070758
+    second: ETG-PAUSE-SCREEN_41
+  - first:
+      213: -3345022284013073535
+    second: ETG-PAUSE-SCREEN_42
+  - first:
+      213: -500474840527365356
+    second: ETG-PAUSE-SCREEN_43
+  - first:
+      213: -5241873148713079700
+    second: ETG-PAUSE-SCREEN_44
+  - first:
+      213: 5810272156625121095
+    second: ETG-PAUSE-SCREEN_45
+  - first:
+      213: -9127189311936637898
+    second: ETG-PAUSE-SCREEN_46
+  - first:
+      213: -1959261056646383458
+    second: ETG-PAUSE-SCREEN_47
+  - first:
+      213: -4492019131380953830
+    second: ETG-PAUSE-SCREEN_48
+  - first:
+      213: -8827428008250791857
+    second: ETG-PAUSE-SCREEN_49
+  - first:
+      213: 1093327336390991966
+    second: ETG-PAUSE-SCREEN_50
+  - first:
+      213: -6939277594383962688
+    second: ETG-PAUSE-SCREEN_51
+  - first:
+      213: 6552770682903881009
+    second: ETG-PAUSE-SCREEN_52
+  - first:
+      213: -4599739324754515809
+    second: ETG-PAUSE-SCREEN_53
+  - first:
+      213: -1789618884965456589
+    second: ETG-PAUSE-SCREEN_54
+  - first:
+      213: 4168643766700372269
+    second: ETG-PAUSE-SCREEN_55
+  - first:
+      213: -6552609589793482177
+    second: ETG-PAUSE-SCREEN_56
+  - first:
+      213: 8221630230602667387
+    second: ETG-PAUSE-SCREEN_57
+  - first:
+      213: 2245359595260389363
+    second: ETG-PAUSE-SCREEN_58
+  - first:
+      213: -1030747250720131349
+    second: ETG-PAUSE-SCREEN_59
+  - first:
+      213: -1319649219202674749
+    second: ETG-PAUSE-SCREEN_60
+  - first:
+      213: 552341662886740163
+    second: ETG-PAUSE-SCREEN_61
+  - first:
+      213: -1251658785327246618
+    second: ETG-PAUSE-SCREEN_62
+  - first:
+      213: 3572184534964672746
+    second: ETG-PAUSE-SCREEN_63
+  - first:
+      213: -1819281868224850457
+    second: ETG-PAUSE-SCREEN_64
+  - first:
+      213: -1168900391627867943
+    second: ETG-PAUSE-SCREEN_65
+  - first:
+      213: 2040073964205898468
+    second: ETG-PAUSE-SCREEN_66
+  - first:
+      213: 6124216102343196265
+    second: ETG-PAUSE-SCREEN_67
+  - first:
+      213: -7274866145071811108
+    second: ETG-PAUSE-SCREEN_68
+  - first:
+      213: -5589340357493334066
+    second: ETG-PAUSE-SCREEN_69
+  - first:
+      213: 1844987179299415006
+    second: ETG-PAUSE-SCREEN_70
+  - first:
+      213: -4120622311487727244
+    second: ETG-PAUSE-SCREEN_71
+  - first:
+      213: 3564923602697503278
+    second: ETG-PAUSE-SCREEN_72
+  - first:
+      213: 8366804057263429023
+    second: ETG-PAUSE-SCREEN_73
+  - first:
+      213: -3574839870897273542
+    second: ETG-PAUSE-SCREEN_74
+  - first:
+      213: -2864689424266608796
+    second: ETG-PAUSE-SCREEN_75
+  - first:
+      213: -3507273097661911704
+    second: ETG-PAUSE-SCREEN_76
+  - first:
+      213: 1538037181898921363
+    second: ETG-PAUSE-SCREEN_77
+  - first:
+      213: 7544879958369906392
+    second: ETG-PAUSE-SCREEN_78
+  - first:
+      213: -2332940589809674552
+    second: ETG-PAUSE-SCREEN_79
+  - first:
+      213: -8962361755716848682
+    second: ETG-PAUSE-SCREEN_80
+  - first:
+      213: -3962055240858796816
+    second: ETG-PAUSE-SCREEN_81
+  - first:
+      213: -9101178206603897341
+    second: ETG-PAUSE-SCREEN_82
+  - first:
+      213: 1425602388575678300
+    second: ETG-PAUSE-SCREEN_83
+  - first:
+      213: 5224453686452343391
+    second: ETG-PAUSE-SCREEN_84
+  - first:
+      213: -2123186827757423243
+    second: ETG-PAUSE-SCREEN_85
+  - first:
+      213: -1561170024955031564
+    second: ETG-PAUSE-SCREEN_86
+  - first:
+      213: -2839809543018546470
+    second: ETG-PAUSE-SCREEN_87
+  - first:
+      213: -1897063969644822601
+    second: ETG-PAUSE-SCREEN_88
+  - first:
+      213: 8560223120295435451
+    second: ETG-PAUSE-SCREEN_89
+  - first:
+      213: -5010764386776585322
+    second: ETG-PAUSE-SCREEN_90
+  - first:
+      213: 7197895989939137456
+    second: ETG-PAUSE-SCREEN_91
+  - first:
+      213: -2652273923843364231
+    second: ETG-PAUSE-SCREEN_92
+  - first:
+      213: -7525756258121914229
+    second: ETG-PAUSE-SCREEN_93
+  - first:
+      213: -3571914470085582943
+    second: ETG-PAUSE-SCREEN_94
+  - first:
+      213: 8561986552931040427
+    second: ETG-PAUSE-SCREEN_95
+  - first:
+      213: -5008469265259428564
+    second: ETG-PAUSE-SCREEN_96
+  - first:
+      213: 1341894055568604975
+    second: ETG-PAUSE-SCREEN_97
+  - first:
+      213: -684995003374130896
+    second: ETG-PAUSE-SCREEN_98
+  - first:
+      213: 2234076081182824011
+    second: ETG-PAUSE-SCREEN_99
+  - first:
+      213: 6753707068778091167
+    second: ETG-PAUSE-SCREEN_100
+  - first:
+      213: 2181662247143655725
+    second: ETG-PAUSE-SCREEN_101
+  - first:
+      213: 3500459529159876533
+    second: ETG-PAUSE-SCREEN_102
+  - first:
+      213: -154429658568435138
+    second: ETG-PAUSE-SCREEN_103
+  - first:
+      213: -265752344463798217
+    second: ETG-PAUSE-SCREEN_104
+  - first:
+      213: 3723080967704203191
+    second: ETG-PAUSE-SCREEN_105
+  - first:
+      213: 4873313164069864911
+    second: ETG-PAUSE-SCREEN_106
+  - first:
+      213: -6746581694012836557
+    second: ETG-PAUSE-SCREEN_107
+  - first:
+      213: -5617227630993819366
+    second: ETG-PAUSE-SCREEN_108
+  - first:
+      213: -4000449946028753333
+    second: ETG-PAUSE-SCREEN_109
+  - first:
+      213: -4991660766219720477
+    second: ETG-PAUSE-SCREEN_110
+  - first:
+      213: -3700345810527279938
+    second: ETG-PAUSE-SCREEN_111
+  - first:
+      213: 7965635895189149897
+    second: ETG-PAUSE-SCREEN_112
+  - first:
+      213: 7278818421415674451
+    second: ETG-PAUSE-SCREEN_113
+  - first:
+      213: -316524868390398454
+    second: ETG-PAUSE-SCREEN_114
+  - first:
+      213: 3262987953665830187
+    second: ETG-PAUSE-SCREEN_115
+  - first:
+      213: -8497740627468114174
+    second: ETG-PAUSE-SCREEN_116
+  - first:
+      213: 7953337311357405173
+    second: ETG-PAUSE-SCREEN_117
+  - first:
+      213: -1295242664834210146
+    second: ETG-PAUSE-SCREEN_118
+  - first:
+      213: -6322233839869249692
+    second: ETG-PAUSE-SCREEN_119
+  - first:
+      213: 2056609700708196752
+    second: ETG-PAUSE-SCREEN_120
+  - first:
+      213: -8009777223959365923
+    second: ETG-PAUSE-SCREEN_121
+  - first:
+      213: -2805317720848050442
+    second: ETG-PAUSE-SCREEN_122
+  - first:
+      213: -3798424181088931443
+    second: ETG-PAUSE-SCREEN_123
+  - first:
+      213: -5441358976109367256
+    second: ETG-PAUSE-SCREEN_124
+  - first:
+      213: 1628885165983779743
+    second: ETG-PAUSE-SCREEN_125
+  - first:
+      213: -2238197947735194560
+    second: ETG-PAUSE-SCREEN_126
+  - first:
+      213: -9128092977644619960
+    second: ETG-PAUSE-SCREEN_127
+  - first:
+      213: 7989557278131344457
+    second: ETG-PAUSE-SCREEN_128
+  - first:
+      213: -3434575112051030516
+    second: ETG-PAUSE-SCREEN_129
+  - first:
+      213: 5083351449809044650
+    second: ETG-PAUSE-SCREEN_130
+  - first:
+      213: -3732672040258877436
+    second: ETG-PAUSE-SCREEN_131
+  - first:
+      213: 5990316147086377844
+    second: ETG-PAUSE-SCREEN_132
+  - first:
+      213: -6446688357988862415
+    second: ETG-PAUSE-SCREEN_133
+  - first:
+      213: -589293446506607743
+    second: ETG-PAUSE-SCREEN_134
+  - first:
+      213: -4469598242347920882
+    second: ETG-PAUSE-SCREEN_135
+  - first:
+      213: -6931886865065636338
+    second: ETG-PAUSE-SCREEN_136
+  - first:
+      213: 6057875383805871947
+    second: ETG-PAUSE-SCREEN_137
+  - first:
+      213: 5716825600533673944
+    second: ETG-PAUSE-SCREEN_138
+  - first:
+      213: -5480423643976608727
+    second: ETG-PAUSE-SCREEN_139
+  - first:
+      213: 8643365381974034961
+    second: ETG-PAUSE-SCREEN_140
+  - first:
+      213: -7001700976694630929
+    second: ETG-PAUSE-SCREEN_141
+  - first:
+      213: 2231378067105000715
+    second: ETG-PAUSE-SCREEN_142
+  - first:
+      213: 8342932117171130432
+    second: ETG-PAUSE-SCREEN_143
+  - first:
+      213: -8080877847228866128
+    second: ETG-PAUSE-SCREEN_144
+  - first:
+      213: 6646468445007232090
+    second: ETG-PAUSE-SCREEN_145
+  - first:
+      213: 6252818678700032816
+    second: ETG-PAUSE-SCREEN_146
+  - first:
+      213: 6966509720714735133
+    second: ETG-PAUSE-SCREEN_147
+  - first:
+      213: 5659682144974391549
+    second: ETG-PAUSE-SCREEN_148
+  - first:
+      213: -1065531301298043071
+    second: ETG-PAUSE-SCREEN_149
+  - first:
+      213: 8585556853445573919
+    second: ETG-PAUSE-SCREEN_150
+  - first:
+      213: 6174316419960334875
+    second: ETG-PAUSE-SCREEN_151
+  - first:
+      213: -486351630530678857
+    second: ETG-PAUSE-SCREEN_152
+  - first:
+      213: -1247255639009457760
+    second: ETG-PAUSE-SCREEN_153
+  - first:
+      213: 6336958712471928480
+    second: ETG-PAUSE-SCREEN_154
+  - first:
+      213: -1293696180475222061
+    second: ETG-PAUSE-SCREEN_155
+  - first:
+      213: -7168932766867054511
+    second: ETG-PAUSE-SCREEN_156
+  - first:
+      213: 8312863893106311415
+    second: ETG-PAUSE-SCREEN_157
+  - first:
+      213: 5128889831140199797
+    second: ETG-PAUSE-SCREEN_158
+  - first:
+      213: 2646823078565808229
+    second: ETG-PAUSE-SCREEN_159
+  - first:
+      213: 9203382375716299572
+    second: ETG-PAUSE-SCREEN_160
+  - first:
+      213: -8528026648843061604
+    second: ETG-PAUSE-SCREEN_161
+  - first:
+      213: 50494555795564045
+    second: ETG-PAUSE-SCREEN_162
+  - first:
+      213: 6242884118879397853
+    second: ETG-PAUSE-SCREEN_163
+  - first:
+      213: -4262564697395429261
+    second: ETG-PAUSE-SCREEN_164
+  - first:
+      213: 4050471665287472759
+    second: ETG-PAUSE-SCREEN_165
+  - first:
+      213: -3031893395154219952
+    second: ETG-PAUSE-SCREEN_166
+  - first:
+      213: 366865957526564207
+    second: ETG-PAUSE-SCREEN_167
+  - first:
+      213: 1478034416028230338
+    second: ETG-PAUSE-SCREEN_168
+  - first:
+      213: 7255826819937755996
+    second: ETG-PAUSE-SCREEN_169
+  - first:
+      213: 106736213383228783
+    second: ETG-PAUSE-SCREEN_170
+  - first:
+      213: -5500295783419732699
+    second: ETG-PAUSE-SCREEN_171
+  - first:
+      213: -6894986915164174272
+    second: ETG-PAUSE-SCREEN_172
+  - first:
+      213: -6835372169429077154
+    second: ETG-PAUSE-SCREEN_173
+  - first:
+      213: 5713263635773909479
+    second: ETG-PAUSE-SCREEN_174
+  - first:
+      213: 5529031260868192790
+    second: ETG-PAUSE-SCREEN_175
+  - first:
+      213: 4511818746566334607
+    second: ETG-PAUSE-SCREEN_176
+  - first:
+      213: 4312372315050052073
+    second: ETG-PAUSE-SCREEN_177
+  - first:
+      213: 5345307856641575893
+    second: ETG-PAUSE-SCREEN_178
+  - first:
+      213: -448830781102604570
+    second: ETG-PAUSE-SCREEN_179
+  - first:
+      213: 6281523140443060420
+    second: ETG-PAUSE-SCREEN_180
+  - first:
+      213: 2452734494643284380
+    second: ETG-PAUSE-SCREEN_181
+  - first:
+      213: -5471655253277556009
+    second: ETG-PAUSE-SCREEN_182
+  - first:
+      213: 4799823583035386597
+    second: ETG-PAUSE-SCREEN_183
+  - first:
+      213: -7919951762605741044
+    second: ETG-PAUSE-SCREEN_184
+  - first:
+      213: -7965940003406916941
+    second: ETG-PAUSE-SCREEN_185
+  - first:
+      213: -6590291221588147686
+    second: ETG-PAUSE-SCREEN_186
+  - first:
+      213: 2759012400743142994
+    second: ETG-PAUSE-SCREEN_187
+  - first:
+      213: -6828594642104697404
+    second: ETG-PAUSE-SCREEN_188
+  - first:
+      213: 8881054442449801212
+    second: ETG-PAUSE-SCREEN_189
+  - first:
+      213: -3574444281822002738
+    second: ETG-PAUSE-SCREEN_190
+  - first:
+      213: 1848332051558725425
+    second: ETG-PAUSE-SCREEN_191
+  - first:
+      213: 3444255763062220167
+    second: ETG-PAUSE-SCREEN_192
+  - first:
+      213: -3939963277872116299
+    second: ETG-PAUSE-SCREEN_193
+  - first:
+      213: -2126126447800207346
+    second: ETG-PAUSE-SCREEN_194
+  - first:
+      213: -3477358936701545973
+    second: ETG-PAUSE-SCREEN_195
+  - first:
+      213: 2768395819716651716
+    second: ETG-PAUSE-SCREEN_196
+  - first:
+      213: -3779243885794876858
+    second: ETG-PAUSE-SCREEN_197
+  - first:
+      213: -3215630491508282976
+    second: ETG-PAUSE-SCREEN_198
+  - first:
+      213: 8713938138208898960
+    second: ETG-PAUSE-SCREEN_199
+  - first:
+      213: 4133696737158921998
+    second: ETG-PAUSE-SCREEN_200
+  - first:
+      213: -4345584954856374558
+    second: ETG-PAUSE-SCREEN_201
+  - first:
+      213: -6627387196796849865
+    second: ETG-PAUSE-SCREEN_202
+  - first:
+      213: -8597021130269012015
+    second: ETG-PAUSE-SCREEN_203
+  - first:
+      213: 7417158754663308425
+    second: ETG-PAUSE-SCREEN_204
+  - first:
+      213: 717166590869571566
+    second: ETG-PAUSE-SCREEN_205
+  - first:
+      213: -4100987437283161118
+    second: ETG-PAUSE-SCREEN_206
+  - first:
+      213: -8332976394174563211
+    second: ETG-PAUSE-SCREEN_207
+  - first:
+      213: 6887894296946395079
+    second: ETG-PAUSE-SCREEN_208
+  - first:
+      213: -4569322539059717549
+    second: ETG-PAUSE-SCREEN_209
+  - first:
+      213: -4405970164188548575
+    second: ETG-PAUSE-SCREEN_210
+  - first:
+      213: 6625857816470171551
+    second: ETG-PAUSE-SCREEN_211
+  - first:
+      213: -8112898602509403636
+    second: ETG-PAUSE-SCREEN_212
+  - first:
+      213: -3698543180257682833
+    second: ETG-PAUSE-SCREEN_213
+  - first:
+      213: -9083881342678551216
+    second: ETG-PAUSE-SCREEN_214
+  - first:
+      213: -3745321565277564860
+    second: ETG-PAUSE-SCREEN_215
+  - first:
+      213: 1218051642976583548
+    second: ETG-PAUSE-SCREEN_216
+  - first:
+      213: 4272277047575392356
+    second: ETG-PAUSE-SCREEN_217
+  - first:
+      213: 5375423090783289216
+    second: ETG-PAUSE-SCREEN_218
+  - first:
+      213: 7617975698762612333
+    second: ETG-PAUSE-SCREEN_219
+  - first:
+      213: -3082218280763710403
+    second: ETG-PAUSE-SCREEN_220
+  - first:
+      213: -743534970956270058
+    second: ETG-PAUSE-SCREEN_221
+  - first:
+      213: 7707507768921998646
+    second: ETG-PAUSE-SCREEN_222
+  - first:
+      213: 545525004257105750
+    second: ETG-PAUSE-SCREEN_223
+  - first:
+      213: -7828009154446526624
+    second: ETG-PAUSE-SCREEN_224
+  - first:
+      213: 3204654569992568839
+    second: ETG-PAUSE-SCREEN_225
+  - first:
+      213: -5000245570635952681
+    second: ETG-PAUSE-SCREEN_226
+  - first:
+      213: -3501538043824253992
+    second: ETG-PAUSE-SCREEN_227
+  - first:
+      213: -2980730285527887646
+    second: ETG-PAUSE-SCREEN_228
+  - first:
+      213: 2385403117731292920
+    second: ETG-PAUSE-SCREEN_229
+  - first:
+      213: -1164270657122611607
+    second: ETG-PAUSE-SCREEN_230
+  - first:
+      213: -8170644127748994438
+    second: ETG-PAUSE-SCREEN_231
+  - first:
+      213: -9136005569110902424
+    second: ETG-PAUSE-SCREEN_232
+  - first:
+      213: -8564571971064891874
+    second: ETG-PAUSE-SCREEN_233
+  - first:
+      213: 8748065432682985434
+    second: ETG-PAUSE-SCREEN_234
+  - first:
+      213: 6019552019433373716
+    second: ETG-PAUSE-SCREEN_235
+  - first:
+      213: 6891755658159893306
+    second: ETG-PAUSE-SCREEN_236
+  - first:
+      213: -470638420247445176
+    second: ETG-PAUSE-SCREEN_237
+  - first:
+      213: 3181482248911907322
+    second: ETG-PAUSE-SCREEN_238
+  - first:
+      213: -259153766253413863
+    second: ETG-PAUSE-SCREEN_239
+  - first:
+      213: 2464448196291597084
+    second: ETG-PAUSE-SCREEN_240
+  - first:
+      213: 96262937008601837
+    second: ETG-PAUSE-SCREEN_241
+  - first:
+      213: 7246724904016071967
+    second: ETG-PAUSE-SCREEN_242
+  - first:
+      213: -4680150456202498307
+    second: ETG-PAUSE-SCREEN_243
+  - first:
+      213: 6868365276319749583
+    second: ETG-PAUSE-SCREEN_244
+  - first:
+      213: -6138592896656356167
+    second: ETG-PAUSE-SCREEN_245
+  - first:
+      213: -1421264426843877856
+    second: ETG-PAUSE-SCREEN_246
+  - first:
+      213: -2053222957174418933
+    second: ETG-PAUSE-SCREEN_247
+  - first:
+      213: 3963229676990347071
+    second: ETG-PAUSE-SCREEN_248
+  - first:
+      213: -1697701151789669113
+    second: ETG-PAUSE-SCREEN_249
+  - first:
+      213: -6701164086152456086
+    second: ETG-PAUSE-SCREEN_250
+  - first:
+      213: -912176590808312781
+    second: ETG-PAUSE-SCREEN_251
+  - first:
+      213: -913270288016757156
+    second: ETG-PAUSE-SCREEN_252
+  - first:
+      213: 1816655358960623468
+    second: ETG-PAUSE-SCREEN_253
+  - first:
+      213: 4427008537974315437
+    second: ETG-PAUSE-SCREEN_254
+  - first:
+      213: -2410241902784605477
+    second: ETG-PAUSE-SCREEN_255
+  - first:
+      213: -8941004332686647244
+    second: ETG-PAUSE-SCREEN_256
+  - first:
+      213: -6014695989790596360
+    second: ETG-PAUSE-SCREEN_257
+  - first:
+      213: -5036343811864253212
+    second: ETG-PAUSE-SCREEN_258
+  - first:
+      213: -7464955414492591309
+    second: ETG-PAUSE-SCREEN_259
+  - first:
+      213: -1831795667755139194
+    second: ETG-PAUSE-SCREEN_260
+  - first:
+      213: 7715460973155011506
+    second: ETG-PAUSE-SCREEN_261
+  - first:
+      213: -209318969155054752
+    second: ETG-PAUSE-SCREEN_262
+  - first:
+      213: 8946145388169800918
+    second: ETG-PAUSE-SCREEN_263
+  - first:
+      213: -2393603091583240198
+    second: ETG-PAUSE-SCREEN_264
+  - first:
+      213: -7214752316568113465
+    second: ETG-PAUSE-SCREEN_265
+  - first:
+      213: -6278854895437020787
+    second: ETG-PAUSE-SCREEN_266
+  - first:
+      213: 3273877142869038020
+    second: ETG-PAUSE-SCREEN_267
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 105
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 971
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e31c22927a843d0800000000000000
+      internalID: -3222141738265002479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 915
+        width: 74
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1214a4e2baada6220800000000000000
+      internalID: 2480034973571760417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1019
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35630c9c577374bb0800000000000000
+      internalID: -4951928286235052461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1023
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011ac1289c16485c0800000000000000
+      internalID: -4214135833212706544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1023
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bdc48b1bd472e60800000000000000
+      internalID: 7937398293960383251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1019
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2948f23a0955d19d0800000000000000
+      internalID: -2801989313453128558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_6
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 899
+        width: 130
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7982304415a60a0d0800000000000000
+      internalID: -3413611620280883049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 995
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76829eaecfd5aef50800000000000000
+      internalID: 6911439919007737959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 915
+        width: 146
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1284102592e550c80800000000000000
+      internalID: -8357170001953601503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_9
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 995
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8538bb68f45e45390800000000000000
+      internalID: -7830381722364837032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_10
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 915
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d521053c1d3dbda0800000000000000
+      internalID: -5927514343192058407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 959
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df5f75aa784a1030800000000000000
+      internalID: 3466162554814816215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 923
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e61658653ace6b70800000000000000
+      internalID: 8894268644835858148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 963
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe1140ca492c6900800000000000000
+      internalID: 678963044855914171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 963
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2b99b07e0f99c70800000000000000
+      internalID: 8978472207262528233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_15
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 963
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad3b3f2f14dd1560800000000000000
+      internalID: 7286213002556816808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 963
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fca3a3f160e5e40800000000000000
+      internalID: 5646957713959866171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 947
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce4f6a9a3d14c010800000000000000
+      internalID: 1208122737578430156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 947
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4957c7616202e8cb0800000000000000
+      internalID: -4859911599928085100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_19
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 927
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d8c3efa3cd97dc0800000000000000
+      internalID: -3640636677820740315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 923
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94d34b97977f9180800000000000000
+      internalID: -9106428428491172707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 919
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c76b826aaedc540800000000000000
+      internalID: 5029934358211230725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 927
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6155773dac3ec00800000000000000
+      internalID: 928808957757429486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 931
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39ee489a863b0340800000000000000
+      internalID: 4831014994173684026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_24
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 931
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a0293286e99d200800000000000000
+      internalID: 205369428132629131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 871
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaf37b2bafc05110800000000000000
+      internalID: 1247725430857005770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 931
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ce4ce9e7ab1c670800000000000000
+      internalID: 8557325819973004357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_27
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 931
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a407c82f746ae92d0800000000000000
+      internalID: -3269993451482222518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 891
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae11ceea55b31540800000000000000
+      internalID: 4977521415331847849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_29
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 915
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00da33b6d443aecd0800000000000000
+      internalID: -2528150733699437312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_30
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 915
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaefbb2a0a4639d0800000000000000
+      internalID: -2794965111192687968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 879
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c649584908b6f02f0800000000000000
+      internalID: -1004465991888563092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2d90bb5c1339d80800000000000000
+      internalID: -8245191767468944734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ca678944f191a60800000000000000
+      internalID: 7645176221914279070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_34
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf3d695417a02bd0800000000000000
+      internalID: -2656940074307076157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_35
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d42f3a0f76a2e270800000000000000
+      internalID: 8278362129623360726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_36
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08d45342815b44c0800000000000000
+      internalID: -4302255399105144818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 871
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c943c5231c287b600800000000000000
+      internalID: 483999251250820252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_38
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 891
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592be44d18a4e2540800000000000000
+      internalID: 4985003759018881685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_39
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d05b795a3eea8740800000000000000
+      internalID: 5155194657855721682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_40
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f842a117f9734350800000000000000
+      internalID: 5999773230647363832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_41
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665207e99c7281640800000000000000
+      internalID: 5050830728996070758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_42
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b82a394f71491d0800000000000000
+      internalID: -3345022284013073535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_43
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 687
+        width: 110
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b985fb8c4fd09f0800000000000000
+      internalID: -500474840527365356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c6c45d4202147b0800000000000000
+      internalID: -5241873148713079700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_45
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fabf70ebb32a050800000000000000
+      internalID: 5810272156625121095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_46
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6345640cda5b55180800000000000000
+      internalID: -9127189311936637898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_47
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98f558137e4fc4e0800000000000000
+      internalID: -1959261056646383458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_48
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d87c5566429a1c0800000000000000
+      internalID: -4492019131380953830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_49
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48a0e70ffcae7580800000000000000
+      internalID: -8827428008250791857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_50
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e502fc47b674c2f00800000000000000
+      internalID: 1093327336390991966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_51
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdaae43bcbb2bf90800000000000000
+      internalID: -6939277594383962688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_52
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1356411d73e10fa50800000000000000
+      internalID: 6552770682903881009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_53
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ac9064717a20c0800000000000000
+      internalID: -4599739324754515809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_54
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335ad4e1b1ff927e0800000000000000
+      internalID: -1789618884965456589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_55
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21725d5b6ff9d930800000000000000
+      internalID: 4168643766700372269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_56
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a9a889b447015a0800000000000000
+      internalID: -6552609589793482177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_57
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b755fa97229191270800000000000000
+      internalID: 8221630230602667387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_58
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7a28cc7ae192f10800000000000000
+      internalID: 2245359595260389363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_59
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6bd9b26dc02b1f0800000000000000
+      internalID: -1030747250720131349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_60
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf8d45e60aafade0800000000000000
+      internalID: -1319649219202674749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_61
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c04303e0df4aa700800000000000000
+      internalID: 552341662886740163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_62
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 871
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2929067f631aee0800000000000000
+      internalID: -1251658785327246618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_63
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 871
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae896b688e2f29130800000000000000
+      internalID: 3572184534964672746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_64
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 823
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e51622a7cc90c6e0800000000000000
+      internalID: -1819281868224850457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_65
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 859
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8b433794b37cfe0800000000000000
+      internalID: -1168900391627867943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_66
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 859
+        width: 422
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaf300367ccf4c10800000000000000
+      internalID: 2040073964205898468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_67
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 843
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eb4ebf8169df450800000000000000
+      internalID: 6124216102343196265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_68
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 839
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5ba72f8cb7a0b90800000000000000
+      internalID: -7274866145071811108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_69
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 799
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfdad6fe8cae62b0800000000000000
+      internalID: -5589340357493334066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 835
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3aa4d7016ba9910800000000000000
+      internalID: 1844987179299415006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_71
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 843
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4799936f6db90d6c0800000000000000
+      internalID: -4120622311487727244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_72
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 839
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22c03ef027297130800000000000000
+      internalID: 3564923602697503278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_73
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 843
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95db7af5fbdc1470800000000000000
+      internalID: 8366804057263429023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_74
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 823
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35c346e31e936ec0800000000000000
+      internalID: -3574839870897273542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_75
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 839
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f35ca75249e38d0800000000000000
+      internalID: -2864689424266608796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_76
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 843
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86de39333b9a35fc0800000000000000
+      internalID: -3507273097661911704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_77
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 843
+        width: 50
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959d660ba4385510800000000000000
+      internalID: 1538037181898921363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_78
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 843
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de2a9ff85cc4b860800000000000000
+      internalID: 7544879958369906392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_79
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 843
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6dd4ed4eabf9fd0800000000000000
+      internalID: -2332940589809674552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_80
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 823
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d373f1c77b4f9380800000000000000
+      internalID: -8962361755716848682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_81
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 811
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcf22410c3f309c0800000000000000
+      internalID: -3962055240858796816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_82
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 823
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30619d524ae12b180800000000000000
+      internalID: -9101178206603897341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_83
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 819
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f600ab1d1c8c310800000000000000
+      internalID: 1425602388575678300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_84
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 823
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d87e82fcf08840800000000000000
+      internalID: 5224453686452343391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_85
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 815
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575fabb44dce882e0800000000000000
+      internalID: -2123186827757423243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_86
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 815
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff419c322c955ae0800000000000000
+      internalID: -1561170024955031564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 679
+        width: 58
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada7d9e3448f698d0800000000000000
+      internalID: -2839809543018546470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_88
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 787
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfb025ee564ca5e0800000000000000
+      internalID: -1897063969644822601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_89
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 787
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc9b4be2950cc670800000000000000
+      internalID: 8560223120295435451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_90
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 787
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69be001a650367ab0800000000000000
+      internalID: -5010764386776585322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_91
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 787
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbe78a444014e360800000000000000
+      internalID: 7197895989939137456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_92
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 755
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ae84a2bea313bd0800000000000000
+      internalID: -2652273923843364231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_93
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 751
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8868707e842f8790800000000000000
+      internalID: -7525756258121914229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_94
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 763
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af987ad6b20e6ec0800000000000000
+      internalID: -3571914470085582943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_95
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 763
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac3023186942d670800000000000000
+      internalID: 8561986552931040427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_96
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 719
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2500cf3db75e7ab0800000000000000
+      internalID: -5008469265259428564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_97
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 719
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fff5ca88d5f9210800000000000000
+      internalID: 1341894055568604975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_98
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 687
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a7f67ca86e76f0800000000000000
+      internalID: -684995003374130896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_99
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 687
+        width: 10
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b465914fb58010f10800000000000000
+      internalID: 2234076081182824011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_100
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 735
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92109fdbccf9bd50800000000000000
+      internalID: 6753707068778091167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_101
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 739
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c0ec3142d64e10800000000000000
+      internalID: 2181662247143655725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_102
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 679
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf94324561249030800000000000000
+      internalID: 3500459529159876533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_103
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 687
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5e323b0b5bddf0800000000000000
+      internalID: -154429658568435138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_104
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 715
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730120696abdf4cf0800000000000000
+      internalID: -265752344463798217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_105
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 715
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfc6061a6a0ba330800000000000000
+      internalID: 3723080967704203191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_106
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 727
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc58e97b08c71a340800000000000000
+      internalID: 4873313164069864911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_107
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 719
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3353638b1b35f52a0800000000000000
+      internalID: -6746581694012836557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_108
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 679
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19ba102b399b02b0800000000000000
+      internalID: -5617227630993819366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_109
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 687
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4eb93928fb8b78c0800000000000000
+      internalID: -4000449946028753333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_110
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 467
+        width: 218
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e82836eafe0abab0800000000000000
+      internalID: -4991660766219720477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_111
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 687
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4aa61371bb5acc0800000000000000
+      internalID: -3700345810527279938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_112
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 687
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c899d694af9b8e60800000000000000
+      internalID: 7965635895189149897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_113
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 679
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3520d091ace830560800000000000000
+      internalID: 7278818421415674451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_114
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 679
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0653092f4a7b9bf0800000000000000
+      internalID: -316524868390398454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_115
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 675
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d61ac7146784d20800000000000000
+      internalID: 3262987953665830187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_116
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 675
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207ab5a1ce5f11a80800000000000000
+      internalID: -8497740627468114174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_117
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 671
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f78156652eef5e60800000000000000
+      internalID: 7953337311357405173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_118
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 663
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9660a8a8af560ee0800000000000000
+      internalID: -1295242664834210146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_119
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 631
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467b3abb1d9e248a0800000000000000
+      internalID: -6322233839869249692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_120
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 523
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091a55c50ab8a8c10800000000000000
+      internalID: 2056609700708196752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_121
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 643
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd633eb6d0e87d090800000000000000
+      internalID: -8009777223959365923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_122
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 643
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f65eb665628119d0800000000000000
+      internalID: -2805317720848050442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_123
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 647
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81b0fb0559494bc0800000000000000
+      internalID: -3798424181088931443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_124
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 647
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8203e9d37d86c74b0800000000000000
+      internalID: -5441358976109367256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_125
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 599
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bcd52ad66fa9610800000000000000
+      internalID: 1628885165983779743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_126
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 623
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0444c3433d250f0e0800000000000000
+      internalID: -2238197947735194560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_127
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 527
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84731ceaccf725180800000000000000
+      internalID: -9128092977644619960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_128
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 595
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944d7a3930c90ee60800000000000000
+      internalID: 7989557278131344457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_129
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 567
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c060dcbf120f550d0800000000000000
+      internalID: -3434575112051030516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_130
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 567
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4c55af531bb8640800000000000000
+      internalID: 5083351449809044650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_131
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 559
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40846515e82e23cc0800000000000000
+      internalID: -3732672040258877436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_132
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 543
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473ce573cc0e12350800000000000000
+      internalID: 5990316147086377844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_133
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 527
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1367d6c2813c886a0800000000000000
+      internalID: -6446688357988862415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_134
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 547
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b028c8bb862d7f0800000000000000
+      internalID: -589293446506607743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_135
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 479
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02542c541cc8f1c0800000000000000
+      internalID: -4469598242347920882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_136
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 479
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e01987f9dfccf90800000000000000
+      internalID: -6931886865065636338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_137
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 479
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b470559c095e11450800000000000000
+      internalID: 6057875383805871947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_138
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 479
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d73baa389e365f40800000000000000
+      internalID: 5716825600533673944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_139
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 483
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9245f1a7bbf91f3b0800000000000000
+      internalID: -5480423643976608727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_140
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 447
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a8878350763f770800000000000000
+      internalID: 8643365381974034961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_141
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 467
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe56c9cee06f4de90800000000000000
+      internalID: -7001700976694630929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_142
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 399
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d2469978277fe10800000000000000
+      internalID: 2231378067105000715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_143
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 439
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040de2dce8c08c370800000000000000
+      internalID: 8342932117171130432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_144
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 443
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1a99a8964fadf80800000000000000
+      internalID: -8080877847228866128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_145
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 443
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cbf7316dffc3c50800000000000000
+      internalID: 6646468445007232090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_146
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 439
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033c7dc957976c650800000000000000
+      internalID: 6252818678700032816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_147
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 439
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee18b4ea30ea060800000000000000
+      internalID: 6966509720714735133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_148
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 439
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8c1d0bcea3b8e40800000000000000
+      internalID: 5659682144974391549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_149
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 427
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14702194de87631f0800000000000000
+      internalID: -1065531301298043071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_150
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 411
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d3b805876062770800000000000000
+      internalID: 8585556853445573919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_151
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 399
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ae89e22149fa550800000000000000
+      internalID: 6174316419960334875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_152
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 403
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf6942d4c12049f0800000000000000
+      internalID: -486351630530678857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_153
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 391
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a90db4ca9bd0bee0800000000000000
+      internalID: -1247255639009457760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_154
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 403
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeb435df5661f750800000000000000
+      internalID: 6336958712471928480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_155
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 399
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ae7b9d2edb0ee0800000000000000
+      internalID: -1293696180475222061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_156
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 399
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1502b3491a5d28c90800000000000000
+      internalID: -7168932766867054511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_157
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 399
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0c5c6daa93d5370800000000000000
+      internalID: 8312863893106311415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_158
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 379
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d893d902a7d2740800000000000000
+      internalID: 5128889831140199797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_159
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 359
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568883501976bb420800000000000000
+      internalID: 2646823078565808229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_160
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 359
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43329a4528bf8bf70800000000000000
+      internalID: 9203382375716299572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_161
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 391
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96f4a042fc56a980800000000000000
+      internalID: -8528026648843061604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_162
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 359
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06294de78463b000800000000000000
+      internalID: 50494555795564045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_163
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 359
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7ebb7a70e23a650800000000000000
+      internalID: 6242884118879397853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_164
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 383
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37000a3edf358d4c0800000000000000
+      internalID: -4262564697395429261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_165
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 383
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ae3ee48a263830800000000000000
+      internalID: 4050471665287472759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_166
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 383
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ccaf0550d8ce5d0800000000000000
+      internalID: -3031893395154219952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_167
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 383
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ded8605ae571500800000000000000
+      internalID: 366865957526564207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_168
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 383
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c22a2d6878038410800000000000000
+      internalID: 1478034416028230338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_169
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 383
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53642abc00e1b460800000000000000
+      internalID: 7255826819937755996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_170
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 383
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6da06345043b7100800000000000000
+      internalID: 106736213383228783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_171
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 383
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d10b570260ba3b0800000000000000
+      internalID: -5500295783419732699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_172
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 383
+        width: 38
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0484cae8ee51050a0800000000000000
+      internalID: -6894986915164174272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_173
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 383
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53b69d2a31e321a0800000000000000
+      internalID: -6835372169429077154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_174
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 383
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9e57ea107994f40800000000000000
+      internalID: 5713263635773909479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_175
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 383
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a241043a01bbc40800000000000000
+      internalID: 5529031260868192790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_176
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 383
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88d800de333d9e30800000000000000
+      internalID: 4511818746566334607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_177
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 383
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e989c9c5cf98db30800000000000000
+      internalID: 4312372315050052073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_178
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 343
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbc93acc295e2a40800000000000000
+      internalID: 5345307856641575893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_179
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee3e1858ce65c9f0800000000000000
+      internalID: -448830781102604570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_180
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 367
+        width: 178
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8318ae3047c2750800000000000000
+      internalID: 6281523140443060420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_181
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 367
+        width: 78
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c996f89170dd90220800000000000000
+      internalID: 2452734494643284380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_182
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 367
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2cdf68986c014b0800000000000000
+      internalID: -5471655253277556009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_183
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 367
+        width: 110
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaed534e166c9240800000000000000
+      internalID: 4799823583035386597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_184
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 359
+        width: 418
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ce7a765dda61290800000000000000
+      internalID: -7919951762605741044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_185
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 351
+        width: 394
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b25bd2b5cb437190800000000000000
+      internalID: -7965940003406916941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_186
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 347
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120dd20d059a84a0800000000000000
+      internalID: -6590291221588147686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_187
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 311
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256513d192bf94620800000000000000
+      internalID: 2759012400743142994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_188
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdb63a3a55fb31a0800000000000000
+      internalID: -6828594642104697404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_189
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 319
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff002926f7df3b70800000000000000
+      internalID: 8881054442449801212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_190
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 335
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1c2982dd5056ec0800000000000000
+      internalID: -3574444281822002738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_191
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 343
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1377020453896a910800000000000000
+      internalID: 1848332051558725425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_192
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 335
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7856ae83e547ccf20800000000000000
+      internalID: 3444255763062220167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_193
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 319
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd495a06407259c0800000000000000
+      internalID: -3939963277872116299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_194
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 339
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e083e4ba24b7e72e0800000000000000
+      internalID: -2126126447800207346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_195
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 343
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02df5d8870fdbfc0800000000000000
+      internalID: -3477358936701545973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_196
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 319
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca23e794515b6620800000000000000
+      internalID: 2768395819716651716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_197
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 319
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64221ab85bd6d8bc0800000000000000
+      internalID: -3779243885794876858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_198
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 323
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ebb8ea19cf53d0800000000000000
+      internalID: -3215630491508282976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_199
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 315
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f8baa71902ee870800000000000000
+      internalID: 8713938138208898960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_200
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 323
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f7c8bf747dd5930800000000000000
+      internalID: 4133696737158921998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_201
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 283
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eef088e18161b3c0800000000000000
+      internalID: -4345584954856374558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_202
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 331
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731b3f9357ac604a0800000000000000
+      internalID: -6627387196796849865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_203
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 327
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfc9cbb4de31b880800000000000000
+      internalID: -8597021130269012015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_204
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 287
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c926ee69a0fe660800000000000000
+      internalID: 7417158754663308425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_205
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 287
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee70f85f633e3f900800000000000000
+      internalID: 717166590869571566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_206
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 299
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebc56c57ad5617c0800000000000000
+      internalID: -4100987437283161118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_207
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 223
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c72879e125b5c80800000000000000
+      internalID: -8332976394174563211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_208
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 287
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7cde39e57b69f50800000000000000
+      internalID: 6887894296946395079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_209
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 311
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ad82b2c518690c0800000000000000
+      internalID: -4569322539059717549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_210
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 291
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1227290ca79dad2c0800000000000000
+      internalID: -4405970164188548575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_211
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 263
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f23fa2496c3fb50800000000000000
+      internalID: 6625857816470171551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_212
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 295
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0af9aa74b1396f80800000000000000
+      internalID: -8112898602509403636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_213
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 303
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a1c42c2922cacc0800000000000000
+      internalID: -3698543180257682833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_214
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 291
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055b8db1c029fe180800000000000000
+      internalID: -9083881342678551216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_215
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 247
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440550441e1f50cc0800000000000000
+      internalID: -3745321565277564860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_216
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 291
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f33b9048367e010800000000000000
+      internalID: 1218051642976583548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_217
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 275
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46039cad65d2a4b30800000000000000
+      internalID: 4272277047575392356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_218
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 203
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ff19322d6599a40800000000000000
+      internalID: 5375423090783289216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_219
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 275
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ebd48498c78b960800000000000000
+      internalID: 7617975698762612333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_220
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 275
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d342ddecdc2c935d0800000000000000
+      internalID: -3082218280763710403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_221
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 275
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616321222ee6ea5f0800000000000000
+      internalID: -743534970956270058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_222
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 259
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635c82eca7196fa60800000000000000
+      internalID: 7707507768921998646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_223
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 235
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65796ded918129700800000000000000
+      internalID: 545525004257105750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_224
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06775ba06235d5390800000000000000
+      internalID: -7828009154446526624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_225
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 259
+        width: 66
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7004d383a58397c20800000000000000
+      internalID: 3204654569992568839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_226
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 215
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd068c552f8b9ab0800000000000000
+      internalID: -5000245570635952681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_227
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 239
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3d65a73b9086fc0800000000000000
+      internalID: -3501538043824253992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_228
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 195
+        width: 14
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e09cdf099152a6d0800000000000000
+      internalID: -2980730285527887646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_229
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 195
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6ab764f77aa1120800000000000000
+      internalID: 2385403117731292920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_230
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 195
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ecbc3810ea7dfe0800000000000000
+      internalID: -1164270657122611607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_231
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 207
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ac36ba47a0c9e80800000000000000
+      internalID: -8170644127748994438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_232
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 215
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869772be653663180800000000000000
+      internalID: -9136005569110902424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_233
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 195
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16f86b5b27842980800000000000000
+      internalID: -8564571971064891874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_234
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 195
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad771fa692f576970800000000000000
+      internalID: 8748065432682985434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_235
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 183
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410cf413baeb98350800000000000000
+      internalID: 6019552019433373716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_236
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 207
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ba86bc14f64af50800000000000000
+      internalID: 6891755658159893306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_237
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 199
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841008fa9d4f779f0800000000000000
+      internalID: -470638420247445176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_238
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 183
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9ea99cf35e62c20800000000000000
+      internalID: 3181482248911907322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_239
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 171
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ab24cc50d476cf0800000000000000
+      internalID: -259153766253413863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_240
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13105bc39a733220800000000000000
+      internalID: 2464448196291597084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_241
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 167
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deafe6591aef55100800000000000000
+      internalID: 96262937008601837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_242
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dcad8c7e9819460800000000000000
+      internalID: 7246724904016071967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_243
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 155
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeeaa2e4f3cc0fb0800000000000000
+      internalID: -4680150456202498307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_244
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 183
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc59aa224d5515f50800000000000000
+      internalID: 6868365276319749583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_245
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 163
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bccf0eb8465fcaa0800000000000000
+      internalID: -6138592896656356167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_246
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 163
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4212b887a64ce0800000000000000
+      internalID: -1421264426843877856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_247
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 183
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0211f0599c7183e0800000000000000
+      internalID: -2053222957174418933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_248
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 183
+        width: 66
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37bb44a468300730800000000000000
+      internalID: 3963229676990347071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_249
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7052ec81ccd8078e0800000000000000
+      internalID: -1697701151789669113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_250
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68174794cea003a0800000000000000
+      internalID: -6701164086152456086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_251
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 163
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334917c393c4753f0800000000000000
+      internalID: -912176590808312781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_252
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 155
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea7d203896353f0800000000000000
+      internalID: -913270288016757156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_253
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 155
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f58268c6e063910800000000000000
+      internalID: 1816655358960623468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_254
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 131
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9949b5fc4ef6d30800000000000000
+      internalID: 4427008537974315437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_255
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd213c962c91d8ed0800000000000000
+      internalID: -2410241902784605477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_256
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 131
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ebfe4eeb2be380800000000000000
+      internalID: -8941004332686647244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_257
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 127
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2a0905dd1878ca0800000000000000
+      internalID: -6014695989790596360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_258
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec281f9cff4b1ab0800000000000000
+      internalID: -5036343811864253212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_259
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 135
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b4a0ff996276890800000000000000
+      internalID: -7464955414492591309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_260
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 99
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ffa52ab872496e0800000000000000
+      internalID: -1831795667755139194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_261
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 123
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb4b4770e2d21b60800000000000000
+      internalID: 7715460973155011506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_262
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06313cea189581df0800000000000000
+      internalID: -209318969155054752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_263
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 67
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc2cd2f4d7172c70800000000000000
+      internalID: 8946145388169800918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_264
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 67
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af777e88ba638ced0800000000000000
+      internalID: -2393603091583240198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_265
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 87
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cee7845efc00eb90800000000000000
+      internalID: -7214752316568113465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_266
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 59
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8101494db60dd8a0800000000000000
+      internalID: -6278854895437020787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG-PAUSE-SCREEN_267
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 55
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3dafa6ae52f6d20800000000000000
+      internalID: 3273877142869038020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ETG-PAUSE-SCREEN_0: -3222141738265002479
+      ETG-PAUSE-SCREEN_1: 2480034973571760417
+      ETG-PAUSE-SCREEN_10: -5927514343192058407
+      ETG-PAUSE-SCREEN_100: 6753707068778091167
+      ETG-PAUSE-SCREEN_101: 2181662247143655725
+      ETG-PAUSE-SCREEN_102: 3500459529159876533
+      ETG-PAUSE-SCREEN_103: -154429658568435138
+      ETG-PAUSE-SCREEN_104: -265752344463798217
+      ETG-PAUSE-SCREEN_105: 3723080967704203191
+      ETG-PAUSE-SCREEN_106: 4873313164069864911
+      ETG-PAUSE-SCREEN_107: -6746581694012836557
+      ETG-PAUSE-SCREEN_108: -5617227630993819366
+      ETG-PAUSE-SCREEN_109: -4000449946028753333
+      ETG-PAUSE-SCREEN_11: 3466162554814816215
+      ETG-PAUSE-SCREEN_110: -4991660766219720477
+      ETG-PAUSE-SCREEN_111: -3700345810527279938
+      ETG-PAUSE-SCREEN_112: 7965635895189149897
+      ETG-PAUSE-SCREEN_113: 7278818421415674451
+      ETG-PAUSE-SCREEN_114: -316524868390398454
+      ETG-PAUSE-SCREEN_115: 3262987953665830187
+      ETG-PAUSE-SCREEN_116: -8497740627468114174
+      ETG-PAUSE-SCREEN_117: 7953337311357405173
+      ETG-PAUSE-SCREEN_118: -1295242664834210146
+      ETG-PAUSE-SCREEN_119: -6322233839869249692
+      ETG-PAUSE-SCREEN_12: 8894268644835858148
+      ETG-PAUSE-SCREEN_120: 2056609700708196752
+      ETG-PAUSE-SCREEN_121: -8009777223959365923
+      ETG-PAUSE-SCREEN_122: -2805317720848050442
+      ETG-PAUSE-SCREEN_123: -3798424181088931443
+      ETG-PAUSE-SCREEN_124: -5441358976109367256
+      ETG-PAUSE-SCREEN_125: 1628885165983779743
+      ETG-PAUSE-SCREEN_126: -2238197947735194560
+      ETG-PAUSE-SCREEN_127: -9128092977644619960
+      ETG-PAUSE-SCREEN_128: 7989557278131344457
+      ETG-PAUSE-SCREEN_129: -3434575112051030516
+      ETG-PAUSE-SCREEN_13: 678963044855914171
+      ETG-PAUSE-SCREEN_130: 5083351449809044650
+      ETG-PAUSE-SCREEN_131: -3732672040258877436
+      ETG-PAUSE-SCREEN_132: 5990316147086377844
+      ETG-PAUSE-SCREEN_133: -6446688357988862415
+      ETG-PAUSE-SCREEN_134: -589293446506607743
+      ETG-PAUSE-SCREEN_135: -4469598242347920882
+      ETG-PAUSE-SCREEN_136: -6931886865065636338
+      ETG-PAUSE-SCREEN_137: 6057875383805871947
+      ETG-PAUSE-SCREEN_138: 5716825600533673944
+      ETG-PAUSE-SCREEN_139: -5480423643976608727
+      ETG-PAUSE-SCREEN_14: 8978472207262528233
+      ETG-PAUSE-SCREEN_140: 8643365381974034961
+      ETG-PAUSE-SCREEN_141: -7001700976694630929
+      ETG-PAUSE-SCREEN_142: 2231378067105000715
+      ETG-PAUSE-SCREEN_143: 8342932117171130432
+      ETG-PAUSE-SCREEN_144: -8080877847228866128
+      ETG-PAUSE-SCREEN_145: 6646468445007232090
+      ETG-PAUSE-SCREEN_146: 6252818678700032816
+      ETG-PAUSE-SCREEN_147: 6966509720714735133
+      ETG-PAUSE-SCREEN_148: 5659682144974391549
+      ETG-PAUSE-SCREEN_149: -1065531301298043071
+      ETG-PAUSE-SCREEN_15: 7286213002556816808
+      ETG-PAUSE-SCREEN_150: 8585556853445573919
+      ETG-PAUSE-SCREEN_151: 6174316419960334875
+      ETG-PAUSE-SCREEN_152: -486351630530678857
+      ETG-PAUSE-SCREEN_153: -1247255639009457760
+      ETG-PAUSE-SCREEN_154: 6336958712471928480
+      ETG-PAUSE-SCREEN_155: -1293696180475222061
+      ETG-PAUSE-SCREEN_156: -7168932766867054511
+      ETG-PAUSE-SCREEN_157: 8312863893106311415
+      ETG-PAUSE-SCREEN_158: 5128889831140199797
+      ETG-PAUSE-SCREEN_159: 2646823078565808229
+      ETG-PAUSE-SCREEN_16: 5646957713959866171
+      ETG-PAUSE-SCREEN_160: 9203382375716299572
+      ETG-PAUSE-SCREEN_161: -8528026648843061604
+      ETG-PAUSE-SCREEN_162: 50494555795564045
+      ETG-PAUSE-SCREEN_163: 6242884118879397853
+      ETG-PAUSE-SCREEN_164: -4262564697395429261
+      ETG-PAUSE-SCREEN_165: 4050471665287472759
+      ETG-PAUSE-SCREEN_166: -3031893395154219952
+      ETG-PAUSE-SCREEN_167: 366865957526564207
+      ETG-PAUSE-SCREEN_168: 1478034416028230338
+      ETG-PAUSE-SCREEN_169: 7255826819937755996
+      ETG-PAUSE-SCREEN_17: 1208122737578430156
+      ETG-PAUSE-SCREEN_170: 106736213383228783
+      ETG-PAUSE-SCREEN_171: -5500295783419732699
+      ETG-PAUSE-SCREEN_172: -6894986915164174272
+      ETG-PAUSE-SCREEN_173: -6835372169429077154
+      ETG-PAUSE-SCREEN_174: 5713263635773909479
+      ETG-PAUSE-SCREEN_175: 5529031260868192790
+      ETG-PAUSE-SCREEN_176: 4511818746566334607
+      ETG-PAUSE-SCREEN_177: 4312372315050052073
+      ETG-PAUSE-SCREEN_178: 5345307856641575893
+      ETG-PAUSE-SCREEN_179: -448830781102604570
+      ETG-PAUSE-SCREEN_18: -4859911599928085100
+      ETG-PAUSE-SCREEN_180: 6281523140443060420
+      ETG-PAUSE-SCREEN_181: 2452734494643284380
+      ETG-PAUSE-SCREEN_182: -5471655253277556009
+      ETG-PAUSE-SCREEN_183: 4799823583035386597
+      ETG-PAUSE-SCREEN_184: -7919951762605741044
+      ETG-PAUSE-SCREEN_185: -7965940003406916941
+      ETG-PAUSE-SCREEN_186: -6590291221588147686
+      ETG-PAUSE-SCREEN_187: 2759012400743142994
+      ETG-PAUSE-SCREEN_188: -6828594642104697404
+      ETG-PAUSE-SCREEN_189: 8881054442449801212
+      ETG-PAUSE-SCREEN_19: -3640636677820740315
+      ETG-PAUSE-SCREEN_190: -3574444281822002738
+      ETG-PAUSE-SCREEN_191: 1848332051558725425
+      ETG-PAUSE-SCREEN_192: 3444255763062220167
+      ETG-PAUSE-SCREEN_193: -3939963277872116299
+      ETG-PAUSE-SCREEN_194: -2126126447800207346
+      ETG-PAUSE-SCREEN_195: -3477358936701545973
+      ETG-PAUSE-SCREEN_196: 2768395819716651716
+      ETG-PAUSE-SCREEN_197: -3779243885794876858
+      ETG-PAUSE-SCREEN_198: -3215630491508282976
+      ETG-PAUSE-SCREEN_199: 8713938138208898960
+      ETG-PAUSE-SCREEN_2: -4951928286235052461
+      ETG-PAUSE-SCREEN_20: -9106428428491172707
+      ETG-PAUSE-SCREEN_200: 4133696737158921998
+      ETG-PAUSE-SCREEN_201: -4345584954856374558
+      ETG-PAUSE-SCREEN_202: -6627387196796849865
+      ETG-PAUSE-SCREEN_203: -8597021130269012015
+      ETG-PAUSE-SCREEN_204: 7417158754663308425
+      ETG-PAUSE-SCREEN_205: 717166590869571566
+      ETG-PAUSE-SCREEN_206: -4100987437283161118
+      ETG-PAUSE-SCREEN_207: -8332976394174563211
+      ETG-PAUSE-SCREEN_208: 6887894296946395079
+      ETG-PAUSE-SCREEN_209: -4569322539059717549
+      ETG-PAUSE-SCREEN_21: 5029934358211230725
+      ETG-PAUSE-SCREEN_210: -4405970164188548575
+      ETG-PAUSE-SCREEN_211: 6625857816470171551
+      ETG-PAUSE-SCREEN_212: -8112898602509403636
+      ETG-PAUSE-SCREEN_213: -3698543180257682833
+      ETG-PAUSE-SCREEN_214: -9083881342678551216
+      ETG-PAUSE-SCREEN_215: -3745321565277564860
+      ETG-PAUSE-SCREEN_216: 1218051642976583548
+      ETG-PAUSE-SCREEN_217: 4272277047575392356
+      ETG-PAUSE-SCREEN_218: 5375423090783289216
+      ETG-PAUSE-SCREEN_219: 7617975698762612333
+      ETG-PAUSE-SCREEN_22: 928808957757429486
+      ETG-PAUSE-SCREEN_220: -3082218280763710403
+      ETG-PAUSE-SCREEN_221: -743534970956270058
+      ETG-PAUSE-SCREEN_222: 7707507768921998646
+      ETG-PAUSE-SCREEN_223: 545525004257105750
+      ETG-PAUSE-SCREEN_224: -7828009154446526624
+      ETG-PAUSE-SCREEN_225: 3204654569992568839
+      ETG-PAUSE-SCREEN_226: -5000245570635952681
+      ETG-PAUSE-SCREEN_227: -3501538043824253992
+      ETG-PAUSE-SCREEN_228: -2980730285527887646
+      ETG-PAUSE-SCREEN_229: 2385403117731292920
+      ETG-PAUSE-SCREEN_23: 4831014994173684026
+      ETG-PAUSE-SCREEN_230: -1164270657122611607
+      ETG-PAUSE-SCREEN_231: -8170644127748994438
+      ETG-PAUSE-SCREEN_232: -9136005569110902424
+      ETG-PAUSE-SCREEN_233: -8564571971064891874
+      ETG-PAUSE-SCREEN_234: 8748065432682985434
+      ETG-PAUSE-SCREEN_235: 6019552019433373716
+      ETG-PAUSE-SCREEN_236: 6891755658159893306
+      ETG-PAUSE-SCREEN_237: -470638420247445176
+      ETG-PAUSE-SCREEN_238: 3181482248911907322
+      ETG-PAUSE-SCREEN_239: -259153766253413863
+      ETG-PAUSE-SCREEN_24: 205369428132629131
+      ETG-PAUSE-SCREEN_240: 2464448196291597084
+      ETG-PAUSE-SCREEN_241: 96262937008601837
+      ETG-PAUSE-SCREEN_242: 7246724904016071967
+      ETG-PAUSE-SCREEN_243: -4680150456202498307
+      ETG-PAUSE-SCREEN_244: 6868365276319749583
+      ETG-PAUSE-SCREEN_245: -6138592896656356167
+      ETG-PAUSE-SCREEN_246: -1421264426843877856
+      ETG-PAUSE-SCREEN_247: -2053222957174418933
+      ETG-PAUSE-SCREEN_248: 3963229676990347071
+      ETG-PAUSE-SCREEN_249: -1697701151789669113
+      ETG-PAUSE-SCREEN_25: 1247725430857005770
+      ETG-PAUSE-SCREEN_250: -6701164086152456086
+      ETG-PAUSE-SCREEN_251: -912176590808312781
+      ETG-PAUSE-SCREEN_252: -913270288016757156
+      ETG-PAUSE-SCREEN_253: 1816655358960623468
+      ETG-PAUSE-SCREEN_254: 4427008537974315437
+      ETG-PAUSE-SCREEN_255: -2410241902784605477
+      ETG-PAUSE-SCREEN_256: -8941004332686647244
+      ETG-PAUSE-SCREEN_257: -6014695989790596360
+      ETG-PAUSE-SCREEN_258: -5036343811864253212
+      ETG-PAUSE-SCREEN_259: -7464955414492591309
+      ETG-PAUSE-SCREEN_26: 8557325819973004357
+      ETG-PAUSE-SCREEN_260: -1831795667755139194
+      ETG-PAUSE-SCREEN_261: 7715460973155011506
+      ETG-PAUSE-SCREEN_262: -209318969155054752
+      ETG-PAUSE-SCREEN_263: 8946145388169800918
+      ETG-PAUSE-SCREEN_264: -2393603091583240198
+      ETG-PAUSE-SCREEN_265: -7214752316568113465
+      ETG-PAUSE-SCREEN_266: -6278854895437020787
+      ETG-PAUSE-SCREEN_267: 3273877142869038020
+      ETG-PAUSE-SCREEN_27: -3269993451482222518
+      ETG-PAUSE-SCREEN_28: 4977521415331847849
+      ETG-PAUSE-SCREEN_29: -2528150733699437312
+      ETG-PAUSE-SCREEN_3: -4214135833212706544
+      ETG-PAUSE-SCREEN_30: -2794965111192687968
+      ETG-PAUSE-SCREEN_31: -1004465991888563092
+      ETG-PAUSE-SCREEN_32: -8245191767468944734
+      ETG-PAUSE-SCREEN_33: 7645176221914279070
+      ETG-PAUSE-SCREEN_34: -2656940074307076157
+      ETG-PAUSE-SCREEN_35: 8278362129623360726
+      ETG-PAUSE-SCREEN_36: -4302255399105144818
+      ETG-PAUSE-SCREEN_37: 483999251250820252
+      ETG-PAUSE-SCREEN_38: 4985003759018881685
+      ETG-PAUSE-SCREEN_39: 5155194657855721682
+      ETG-PAUSE-SCREEN_4: 7937398293960383251
+      ETG-PAUSE-SCREEN_40: 5999773230647363832
+      ETG-PAUSE-SCREEN_41: 5050830728996070758
+      ETG-PAUSE-SCREEN_42: -3345022284013073535
+      ETG-PAUSE-SCREEN_43: -500474840527365356
+      ETG-PAUSE-SCREEN_44: -5241873148713079700
+      ETG-PAUSE-SCREEN_45: 5810272156625121095
+      ETG-PAUSE-SCREEN_46: -9127189311936637898
+      ETG-PAUSE-SCREEN_47: -1959261056646383458
+      ETG-PAUSE-SCREEN_48: -4492019131380953830
+      ETG-PAUSE-SCREEN_49: -8827428008250791857
+      ETG-PAUSE-SCREEN_5: -2801989313453128558
+      ETG-PAUSE-SCREEN_50: 1093327336390991966
+      ETG-PAUSE-SCREEN_51: -6939277594383962688
+      ETG-PAUSE-SCREEN_52: 6552770682903881009
+      ETG-PAUSE-SCREEN_53: -4599739324754515809
+      ETG-PAUSE-SCREEN_54: -1789618884965456589
+      ETG-PAUSE-SCREEN_55: 4168643766700372269
+      ETG-PAUSE-SCREEN_56: -6552609589793482177
+      ETG-PAUSE-SCREEN_57: 8221630230602667387
+      ETG-PAUSE-SCREEN_58: 2245359595260389363
+      ETG-PAUSE-SCREEN_59: -1030747250720131349
+      ETG-PAUSE-SCREEN_6: -3413611620280883049
+      ETG-PAUSE-SCREEN_60: -1319649219202674749
+      ETG-PAUSE-SCREEN_61: 552341662886740163
+      ETG-PAUSE-SCREEN_62: -1251658785327246618
+      ETG-PAUSE-SCREEN_63: 3572184534964672746
+      ETG-PAUSE-SCREEN_64: -1819281868224850457
+      ETG-PAUSE-SCREEN_65: -1168900391627867943
+      ETG-PAUSE-SCREEN_66: 2040073964205898468
+      ETG-PAUSE-SCREEN_67: 6124216102343196265
+      ETG-PAUSE-SCREEN_68: -7274866145071811108
+      ETG-PAUSE-SCREEN_69: -5589340357493334066
+      ETG-PAUSE-SCREEN_7: 6911439919007737959
+      ETG-PAUSE-SCREEN_70: 1844987179299415006
+      ETG-PAUSE-SCREEN_71: -4120622311487727244
+      ETG-PAUSE-SCREEN_72: 3564923602697503278
+      ETG-PAUSE-SCREEN_73: 8366804057263429023
+      ETG-PAUSE-SCREEN_74: -3574839870897273542
+      ETG-PAUSE-SCREEN_75: -2864689424266608796
+      ETG-PAUSE-SCREEN_76: -3507273097661911704
+      ETG-PAUSE-SCREEN_77: 1538037181898921363
+      ETG-PAUSE-SCREEN_78: 7544879958369906392
+      ETG-PAUSE-SCREEN_79: -2332940589809674552
+      ETG-PAUSE-SCREEN_8: -8357170001953601503
+      ETG-PAUSE-SCREEN_80: -8962361755716848682
+      ETG-PAUSE-SCREEN_81: -3962055240858796816
+      ETG-PAUSE-SCREEN_82: -9101178206603897341
+      ETG-PAUSE-SCREEN_83: 1425602388575678300
+      ETG-PAUSE-SCREEN_84: 5224453686452343391
+      ETG-PAUSE-SCREEN_85: -2123186827757423243
+      ETG-PAUSE-SCREEN_86: -1561170024955031564
+      ETG-PAUSE-SCREEN_87: -2839809543018546470
+      ETG-PAUSE-SCREEN_88: -1897063969644822601
+      ETG-PAUSE-SCREEN_89: 8560223120295435451
+      ETG-PAUSE-SCREEN_9: -7830381722364837032
+      ETG-PAUSE-SCREEN_90: -5010764386776585322
+      ETG-PAUSE-SCREEN_91: 7197895989939137456
+      ETG-PAUSE-SCREEN_92: -2652273923843364231
+      ETG-PAUSE-SCREEN_93: -7525756258121914229
+      ETG-PAUSE-SCREEN_94: -3571914470085582943
+      ETG-PAUSE-SCREEN_95: 8561986552931040427
+      ETG-PAUSE-SCREEN_96: -5008469265259428564
+      ETG-PAUSE-SCREEN_97: 1341894055568604975
+      ETG-PAUSE-SCREEN_98: -684995003374130896
+      ETG-PAUSE-SCREEN_99: 2234076081182824011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

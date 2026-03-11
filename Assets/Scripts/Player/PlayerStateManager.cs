@@ -1,10 +1,17 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerStateManager : MonoBehaviour
 {
-    public enum PlayerState { Idle, Walking, Dodging, Dead }
+    public enum PlayerState
+    {
+        Idle,
+        Walking,
+        Dodging,
+        Dead
+    }
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
@@ -20,19 +27,25 @@ public class PlayerStateManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private TextMeshProUGUI txtStateDebug;
 
-    [Header("Debug")]
-    [SerializeField] private bool logWarnings = true;
-    [SerializeField] private bool logMovement = false;
+    [Header("World Wrap")]
+    [SerializeField] private WorldBounds2D world;
+    [SerializeField] private bool autoFindWorld = true;
+
+    [Header("World Wrap Helper")]
+    [SerializeField] private WrapMover2D wrapMover;
+    [SerializeField] private CameraFollow cameraScript;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private PlayerState currentState;
 
+    // Los hash optimizan el acceso: comparar enteros es mucho más eficiente que comparar strings
     private static readonly int HashIsMoving = Animator.StringToHash("isMoving");
     private static readonly int HashMoveX = Animator.StringToHash("moveX");
     private static readonly int HashMoveY = Animator.StringToHash("moveY");
-    private static readonly int HashDoRoll = Animator.StringToHash("doRoll"); // Trigger para la animación
+    private static readonly int HashDoRoll = Animator.StringToHash("doRoll");
 
     private void Awake()
     {
@@ -42,55 +55,67 @@ public class PlayerStateManager : MonoBehaviour
 
         if (animator == null) animator = GetComponentInChildren<Animator>(true);
         if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>(true);
+
+        if (autoFindWorld && world == null)
+            world = WorldBounds2D.Instance;
     }
 
     private void Start()
     {
         currentState = PlayerState.Idle;
+        // [RECOMENDACIÓN] Asegurar que el jugador esté en su Layer correcta al iniciar
         gameObject.layer = LayerMask.NameToLayer("Player");
     }
 
     private void Update()
     {
-        // 1. LEER INPUT SIEMPRE (Global)
+        // 1. LEER INPUT
         ReadInput();
 
-        // 2. LÓGICA DE ENFRIAMIENTO
+        // 2. LÓGICA DE ENFRIAMIENTO (Dodge)
         if (cooldownTimer > 0) cooldownTimer -= Time.deltaTime;
 
         // 3. MÁQUINA DE ESTADOS
         switch (currentState)
         {
-            case PlayerState.Idle:
-                HandleIdle();
-                break;
-            case PlayerState.Walking:
-                HandleWalking();
-                break;
-            case PlayerState.Dodging:
-                HandleDodging();
-                break;
+            case PlayerState.Idle: HandleIdle(); break;
+            case PlayerState.Walking: HandleWalking(); break;
+            case PlayerState.Dodging: HandleDodging(); break;
+            case PlayerState.Dead: break;
         }
+
+        if (txtStateDebug != null)
+            txtStateDebug.text = $"Player State: {currentState}";
     }
 
     private void FixedUpdate()
     {
-        // Solo aplicamos movimiento físico aquí
+        Vector2 nextPos;
         if (currentState == PlayerState.Dodging)
-        {
-            rb.MovePosition(rb.position + rollDirection * rollSpeed * Time.fixedDeltaTime);
-        }
+            nextPos = rb.position + rollDirection * rollSpeed * Time.fixedDeltaTime;
         else
+            nextPos = rb.position + moveInput * moveSpeed * Time.fixedDeltaTime;
+
+        // Implementación del WrapMover2D para el efecto "Pac-Man"
+        if (wrapMover != null)
         {
-            rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+            if (wrapMover.TryWrap(ref nextPos, out Vector2 wrapOffset))
+            {
+                // Si hubo un salto de posición, avisamos a la cámara para que no haga el recorrido largo
+                if (wrapOffset != Vector2.zero && cameraScript != null)
+                {
+                    cameraScript.InstantSnap();
+                }
+            }
         }
+
+        rb.MovePosition(nextPos);
     }
 
     private void ReadInput()
     {
         if (Keyboard.current == null) return;
 
-        // Movimiento
         float x = 0, y = 0;
         if (Keyboard.current.aKey.isPressed) x -= 1f;
         if (Keyboard.current.dKey.isPressed) x += 1f;
@@ -99,7 +124,6 @@ public class PlayerStateManager : MonoBehaviour
 
         moveInput = new Vector2(x, y).normalized;
 
-        // Intento de Dodge (Solo si se mueve y no está ya haciendo dodge)
         if (Keyboard.current.spaceKey.wasPressedThisFrame && currentState != PlayerState.Dodging && cooldownTimer <= 0 && moveInput.sqrMagnitude > 0.1f)
         {
             ChangeState(PlayerState.Dodging);
@@ -121,43 +145,44 @@ public class PlayerStateManager : MonoBehaviour
     private void HandleDodging()
     {
         rollTimer -= Time.deltaTime;
-        if (rollTimer <= 0)
-        {
-            ChangeState(PlayerState.Idle);
-        }
+        if (rollTimer <= 0) ChangeState(PlayerState.Idle);
     }
 
     private void ChangeState(PlayerState nextState)
     {
-        // --- Lógica de Salida de Estado ---
+        // Salida de estado: Si dejamos de rodar, recuperamos colisiones normales
         if (currentState == PlayerState.Dodging) EndDodgeInvulnerability();
 
         currentState = nextState;
 
-        // --- Lógica de Entrada de Estado ---
-        switch (currentState)
-        {
-            case PlayerState.Dodging:
-                StartDodge();
-                break;
-        }
+        // Entrada de estado
+        if (currentState == PlayerState.Dodging) StartDodge();
     }
 
     private void StartDodge()
     {
         rollTimer = rollDuration;
         cooldownTimer = rollCooldown;
-        rollDirection = moveInput; // Fijamos la dirección al inicio del dodge
+        rollDirection = moveInput;
         animator.SetTrigger(HashDoRoll);
 
-        // Simular invulnerabilidad (cambiar layer para ignorar colisiones con balas)
+        // [NUEVO] Optimización sugerida: Usar una Layer específica para invulnerabilidad
+        // en lugar de Ignore Raycast, podrías usar una llamada "PlayerInvulnerable"
         gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
     }
 
     private void EndDodgeInvulnerability()
     {
-        // Asegúrate de que "Player" sea el nombre exacto de tu Layer en Unity
         gameObject.layer = LayerMask.NameToLayer("Player");
+    }
+
+    // [IMPORTANTE] Este método ahora es llamado por PlayerHealth antes de avisar al GameFlowManager
+    public void OnPlayerDeath()
+    {
+        ChangeState(PlayerState.Dead);
+        rb.linearVelocity = Vector2.zero;
+        // Al morir, este script se apaga para no procesar más movimientos
+        this.enabled = false;
     }
 
     private void UpdateAnimator(Vector2 input)
@@ -167,7 +192,6 @@ public class PlayerStateManager : MonoBehaviour
         bool isMoving = input.sqrMagnitude > 0.01f;
         animator.SetBool(HashIsMoving, isMoving);
 
-        // Solo actualizamos dirección si nos movemos para que el Idle mantenga la última cara
         if (isMoving)
         {
             animator.SetFloat(HashMoveX, input.x);
