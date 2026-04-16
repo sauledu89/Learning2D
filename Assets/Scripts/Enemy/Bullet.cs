@@ -14,7 +14,10 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float lifetime = 3f;
     [SerializeField] private int damage = 1;
 
-    // Tag del GameObject que esta bala puede dañar ("Player" o "Enemy")
+    [Header("Colisión con entorno")]
+    [Tooltip("Layers con las que la bala debe destruirse al impactar (ej: Walls).")]
+    [SerializeField] private LayerMask destroyOnLayers;
+
     private string targetTag;
     private Rigidbody2D rb;
 
@@ -24,15 +27,9 @@ public class Bullet : MonoBehaviour
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
 
-        // El collider debe ser trigger
-        Collider2D col = GetComponent<Collider2D>();
-        col.isTrigger = true;
+        GetComponent<Collider2D>().isTrigger = true;
     }
 
-    /// <summary>
-    /// Inicializa la bala con dirección, tag del objetivo y parámetros opcionales.
-    /// Llamar inmediatamente después de Instantiate().
-    /// </summary>
     public void SetUp(Vector2 direction, string targetTag, int damage = -1, float speed = -1f)
     {
         this.targetTag = targetTag;
@@ -41,7 +38,6 @@ public class Bullet : MonoBehaviour
 
         rb.linearVelocity = direction.normalized * this.speed;
 
-        // Rota el sprite para que apunte en la dirección de movimiento
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
@@ -50,36 +46,31 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Ignoramos colisiones si el tag objetivo no está asignado
-        if (string.IsNullOrEmpty(targetTag)) return;
+        // Destruirse al impactar con muros u otras layers del entorno
+        if ((destroyOnLayers.value & (1 << other.gameObject.layer)) != 0)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
+        if (string.IsNullOrEmpty(targetTag)) return;
         if (!other.CompareTag(targetTag)) return;
 
-        // Intentamos dañar al objetivo
         if (targetTag == "Player")
         {
-            // Si el jugador está en "Ignore Raycast" está en Dodge Roll → invulnerable
+            // Invulnerable durante Dodge Roll (layer Ignore Raycast)
             if (other.gameObject.layer == LayerMask.NameToLayer("Ignore Raycast"))
                 return;
 
             PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-                playerHealth.TakeDamage(damage);
+            if (playerHealth != null) playerHealth.TakeDamage(damage);
         }
         else if (targetTag == "Enemy")
         {
             EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
-                enemyHealth.TakeDamage(damage);
+            if (enemyHealth != null) enemyHealth.TakeDamage(damage);
         }
 
         Destroy(gameObject);
-    }
-
-    // Gizmo para ver el tamaño real en el editor
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, 0.1f);
     }
 }
