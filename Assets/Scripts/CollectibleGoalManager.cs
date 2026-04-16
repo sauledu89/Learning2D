@@ -37,6 +37,6 @@ public class CollectibleGoalManager : MonoBehaviour
     private void UpdateObjectiveUI()
     {
         if (objectiveText != null)
-            objectiveText.text = $"Runas: {collected}/{collectiblesToWin}";
+            objectiveText.text = $": {collected}/{collectiblesToWin}";
     }
 }

@@ -29,6 +29,10 @@ public class PlayerStateManager : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private TextMeshProUGUI txtStateDebug;
 
+    [Header("Weapon")]
+    [Tooltip("GameObject hijo del jugador que contiene el WeaponController. Se oculta durante el Dodge Roll.")]
+    [SerializeField] private GameObject weaponObject;
+
     [Header("World Wrap")]
     [SerializeField] private WorldBounds2D world;
     [SerializeField] private bool autoFindWorld = true;
@@ -41,7 +45,6 @@ public class PlayerStateManager : MonoBehaviour
     private Vector2 moveInput;
     private PlayerState currentState;
 
-    // Los hash optimizan el acceso: comparar enteros es mucho más eficiente que comparar strings
     private static readonly int HashIsMoving = Animator.StringToHash("isMoving");
     private static readonly int HashMoveX = Animator.StringToHash("moveX");
     private static readonly int HashMoveY = Animator.StringToHash("moveY");
@@ -63,19 +66,15 @@ public class PlayerStateManager : MonoBehaviour
     private void Start()
     {
         currentState = PlayerState.Idle;
-        // [RECOMENDACIÓN] Asegurar que el jugador esté en su Layer correcta al iniciar
         gameObject.layer = LayerMask.NameToLayer("Player");
     }
 
     private void Update()
     {
-        // 1. LEER INPUT
         ReadInput();
 
-        // 2. LÓGICA DE ENFRIAMIENTO (Dodge)
         if (cooldownTimer > 0) cooldownTimer -= Time.deltaTime;
 
-        // 3. MÁQUINA DE ESTADOS
         switch (currentState)
         {
             case PlayerState.Idle: HandleIdle(); break;
@@ -96,16 +95,12 @@ public class PlayerStateManager : MonoBehaviour
         else
             nextPos = rb.position + moveInput * moveSpeed * Time.fixedDeltaTime;
 
-        // Implementación del WrapMover2D para el efecto "Pac-Man"
         if (wrapMover != null)
         {
             if (wrapMover.TryWrap(ref nextPos, out Vector2 wrapOffset))
             {
-                // Si hubo un salto de posición, avisamos a la cámara para que no haga el recorrido largo
                 if (wrapOffset != Vector2.zero && cameraScript != null)
-                {
                     cameraScript.InstantSnap();
-                }
             }
         }
 
@@ -124,7 +119,10 @@ public class PlayerStateManager : MonoBehaviour
 
         moveInput = new Vector2(x, y).normalized;
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame && currentState != PlayerState.Dodging && cooldownTimer <= 0 && moveInput.sqrMagnitude > 0.1f)
+        if (Keyboard.current.spaceKey.wasPressedThisFrame
+            && currentState != PlayerState.Dodging
+            && cooldownTimer <= 0
+            && moveInput.sqrMagnitude > 0.1f)
         {
             ChangeState(PlayerState.Dodging);
         }
@@ -150,12 +148,10 @@ public class PlayerStateManager : MonoBehaviour
 
     private void ChangeState(PlayerState nextState)
     {
-        // Salida de estado: Si dejamos de rodar, recuperamos colisiones normales
         if (currentState == PlayerState.Dodging) EndDodgeInvulnerability();
 
         currentState = nextState;
 
-        // Entrada de estado
         if (currentState == PlayerState.Dodging) StartDodge();
     }
 
@@ -166,22 +162,20 @@ public class PlayerStateManager : MonoBehaviour
         rollDirection = moveInput;
         animator.SetTrigger(HashDoRoll);
 
-        // [NUEVO] Optimización sugerida: Usar una Layer específica para invulnerabilidad
-        // en lugar de Ignore Raycast, podrías usar una llamada "PlayerInvulnerable"
         gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
+        if (weaponObject != null) weaponObject.SetActive(false);
     }
 
     private void EndDodgeInvulnerability()
     {
         gameObject.layer = LayerMask.NameToLayer("Player");
+        if (weaponObject != null) weaponObject.SetActive(true);
     }
 
-    // [IMPORTANTE] Este método ahora es llamado por PlayerHealth antes de avisar al GameFlowManager
     public void OnPlayerDeath()
     {
         ChangeState(PlayerState.Dead);
         rb.linearVelocity = Vector2.zero;
-        // Al morir, este script se apaga para no procesar más movimientos
         this.enabled = false;
     }
 

@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem; // Necesario para detectar la tecla Esc/P
+using UnityEngine.SceneManagement;
 
 public class GameFlowManager : MonoBehaviour
 {
@@ -33,7 +33,14 @@ public class GameFlowManager : MonoBehaviour
     [SerializeField] private float victoryDelay = 0.5f;
 
     private Coroutine endRoutine;
+    
+    [Header("Core Systems")] // [cite: 533]
+    [SerializeField] private ScoreManager scoreManager;
+    [SerializeField] private PlayerHealth playerHealth;
 
+    [Header("Score Configuration")]
+    [SerializeField] private int victoryBonus = 100; // [cite: 352]
+    [SerializeField] private int healthBonusPerHP = 25; // [cite: 353]
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -99,18 +106,52 @@ public class GameFlowManager : MonoBehaviour
 
     public void RequestVictory()
     {
-        if (!IsGameplay) return;
+        // 1. Verificación de seguridad
+        if (currentState != GameState.Gameplay) return;
+
+        Debug.Log("<color=orange>--- INICIANDO CÁLCULO DE PUNTOS FINALES ---</color>");
+
+        // 2. PROCESAR PUNTOS PRIMERO (Antes de cambiar el estado)
+        if (scoreManager != null)
+        {
+            // Bonus fijo por ganar
+            scoreManager.AddVictoryBonus(victoryBonus);
+
+            // Bonus por vida restante
+            if (playerHealth != null)
+            {
+                scoreManager.AddHealthBonus(playerHealth.CurrentHP, healthBonusPerHP);
+            }
+        }
+        else
+        {
+            Debug.LogError("¡ERROR! El ScoreManager no está asignado en el Inspector.");
+        }
+
+        // 3. CAMBIAR EL ESTADO Y TERMINAR (Ahora sí el juego puede detenerse)
         if (endRoutine != null) StopCoroutine(endRoutine);
         endRoutine = StartCoroutine(EndRoutine(GameState.Victory, victoryDelay));
     }
 
     private IEnumerator EndRoutine(GameState endState, float delay)
     {
+        // 1. Deshabilitamos scripts de control para que no lean inputs
         DisableGameplayControllers();
+
+        // 2. Esperamos el delay usando 'Realtime' porque si bajamos el tiempo a 0, 
+        // un WaitForSeconds normal se quedaría esperando para siempre.
         yield return new WaitForSecondsRealtime(Mathf.Max(0f, delay));
 
+        // 3. Cambiamos el estado
         SetState(endState);
+
+        // 4. CONGELAMOS EL TIEMPO GLOBAL
+        Time.timeScale = 0f;
+
+        // 5. Congelamos cámaras
         if (cameraFollow != null) cameraFollow.SetFrozen(true);
+        // Si tienes la MinimapFollow2D en el inspector, asegúrate de congelarla también
+        // (Podrías añadir una referencia similar a la de cameraFollow)
 
         if (endState == GameState.GameOver) ShowPanels(gameOver: true);
         else ShowPanels(victory: true);
