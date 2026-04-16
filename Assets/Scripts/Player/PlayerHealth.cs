@@ -6,7 +6,8 @@ public class PlayerHealth : MonoBehaviour
 {
     [Header("HP")]
     [SerializeField] private int maxHP = 10;
-    private int currentHP;
+    [SerializeField] private int currentHP;
+    public int CurrentHP => currentHP;
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI txtHP;

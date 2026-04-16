@@ -2,234 +2,291 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// FSM del enemigo con disparo a distancia.
+/// Estados:
+///   Patrol  → patrulla entre waypoints hasta detectar al jugador.
+///   Chase   → persigue al jugador hasta entrar en rango de disparo.
+///   Attack  → mantiene una distancia óptima y dispara con cooldown.
+/// </summary>
 public class EnemyStateManager : MonoBehaviour
 {
-    public enum EnemyState
-    {
-        Patrol,
-        Chase,
-        Attack
-    }
+    public enum EnemyState { Wander, Chase, Attack }
 
+    // --- REFERENCIAS ---
     [Header("References")]
     [SerializeField] private Transform player;
-    [SerializeField] private Transform[] waypoints;
     [SerializeField] private TextMeshProUGUI txtStateDebug;
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    // --- RANGOS ---
     [Header("Ranges")]
+    [Tooltip("Distancia a la que el enemigo detecta al jugador y empieza a perseguirlo.")]
     [SerializeField] private float detectionRange = 6f;
-    [SerializeField] private float attackRange = 1.5f;
+    [Tooltip("Distancia a la que el enemigo entra en modo disparo.")]
+    [SerializeField] private float shootRange = 5f;
+    [Tooltip("Distancia mínima que el enemigo intenta mantener con el jugador (retrocede si se acerca más).")]
+    [SerializeField] private float keepDistance = 3f;
 
+    // --- MOVIMIENTO ---
     [Header("Movement")]
-    [SerializeField] private float patrolSpeed = 2f;
+    [SerializeField] private float wanderSpeed = 2f;
     [SerializeField] private float chaseSpeed = 3.5f;
+    [SerializeField] private float retreatSpeed = 2.5f;
 
-    [Header("Attack")]
-    [SerializeField] private float attackCooldown = 1.2f;
+    // --- WANDER ---
+    [Header("Wander")]
+    [Tooltip("Radio alrededor de la posición actual donde se elige el siguiente destino aleatorio.")]
+    [SerializeField] private float wanderRadius = 5f;
+    [Tooltip("Cuánto tiempo espera el enemigo al llegar a un punto antes de elegir el siguiente.")]
+    [SerializeField] private float wanderWaitTime = 1f;
 
-    [Header("Attack Settings")]
-    [SerializeField] private float dashDistance = 3f; // Qu� tanto se desplaza
-    [SerializeField] private float dashDuration = 0.5f; // Cu�nto dura el desplazamiento
-    private bool isDashing = false; // Bloqueo para no repetir el dash
-
-    // HASH de la animaci�n de ataque
-    private static readonly int HashAttackTrigger = Animator.StringToHash("attackTrigger");
-
-    [Header("Damage")]
-    [SerializeField] private PlayerHealth playerHealth;
-    [SerializeField] private int damagePerHit = 1;
-
-    [Header("Detection Settings")]
-    [SerializeField] private LayerMask playerLayer; 
-    [SerializeField] private float attackCheckRadius = 0.8f; // Tama�o del "radar" de da�o
-
+    // --- DISPARO ---
+    [Header("Shooting")]
+    [Tooltip("Prefab de la bala (Bullet.cs). Se instancia en cada disparo.")]
+    [SerializeField] private GameObject bulletPrefab;
+    [Tooltip("Punto de origen del disparo (un Transform hijo vacío en la punta del arma).")]
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private float fireCooldown = 1.5f;
+    [SerializeField] private int bulletDamage = 1;
+    [SerializeField] private float bulletSpeed = 8f;
 
     // --- HASHES DE ANIMATOR ---
     private static readonly int HashIsMoving = Animator.StringToHash("isMoving");
     private static readonly int HashMoveX = Animator.StringToHash("moveX");
     private static readonly int HashMoveY = Animator.StringToHash("moveY");
 
+    // --- ESTADO INTERNO ---
     private EnemyState currentState;
-    private int currentWaypointIndex;
-    private float attackTimer;
-    private Rigidbody2D rb; // <<< a�adir
+    private Vector2 wanderTarget;
+    private float wanderWaitTimer;
+    private float fireTimer;
+    private Rigidbody2D rb;
+
+    // ─────────────────────────────────────────────
+    //  CICLO DE VIDA
+    // ─────────────────────────────────────────────
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // <<< obtener Rigidbody2D
-        if (rb == null) Debug.LogWarning("Enemy necesita un Rigidbody2D.");
+        rb = GetComponent<Rigidbody2D>();
+        if (rb == null) Debug.LogWarning("[EnemyFSM] Falta Rigidbody2D.");
+        if (bulletPrefab == null) Debug.LogWarning("[EnemyFSM] Asigna el prefab de bala en el Inspector.");
+        if (firePoint == null) Debug.LogWarning("[EnemyFSM] Asigna el FirePoint en el Inspector.");
 
-        ChangeState(EnemyState.Patrol);
-        if (playerHealth == null && player != null)
-            playerHealth = player.GetComponent<PlayerHealth>();
+        // Buscar al jugador automáticamente si no está asignado
+        if (player == null)
+        {
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+        }
 
+        PickNewWanderTarget();
+        ChangeState(EnemyState.Wander);
     }
 
     private void Update()
     {
         switch (currentState)
         {
-            case EnemyState.Patrol:
-                Patrol();
-                break;
-            case EnemyState.Chase:
-                Chase();
-                break;
-            case EnemyState.Attack:
-                Attack();
-                break;
+            case EnemyState.Wander: Wander(); break;
+            case EnemyState.Chase: Chase(); break;
+            case EnemyState.Attack: Attack(); break;
         }
 
         if (txtStateDebug != null)
-            txtStateDebug.text = $"Enemy State: {currentState}";
+            txtStateDebug.text = $"Enemy: {currentState}";
     }
 
-    private void ChangeState(EnemyState nextState)
-    {
-        currentState = nextState;
-        Debug.Log($"[Enemy FSM] State changed to {currentState}");
-    }
+    // ─────────────────────────────────────────────
+    //  ESTADOS
+    // ─────────────────────────────────────────────
 
-    private void Patrol()
+    private void Wander()
     {
-        MoveTo(waypoints[currentWaypointIndex], patrolSpeed);
-
-        if (Vector2.Distance(transform.position, player.position) <= detectionRange)
+        // Transición → Chase: jugador detectado
+        if (player != null && DistanceToPlayer() <= detectionRange)
         {
             ChangeState(EnemyState.Chase);
             return;
         }
 
-        if (Vector2.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.2f)
+        // Si estamos esperando entre destinos, contar el timer
+        if (wanderWaitTimer > 0f)
         {
-            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+            wanderWaitTimer -= Time.deltaTime;
+            UpdateVisuals(Vector2.zero, isMoving: false);
+            return;
         }
+
+        // Moverse hacia el destino aleatorio actual
+        MoveTo(wanderTarget, wanderSpeed);
+
+        // Al llegar, esperar y elegir un nuevo destino
+        if (Vector2.Distance(transform.position, wanderTarget) < 0.3f)
+        {
+            wanderWaitTimer = wanderWaitTime;
+            PickNewWanderTarget();
+        }
+    }
+
+    private void PickNewWanderTarget()
+    {
+        // Elegir un punto aleatorio dentro del wanderRadius respetando WorldBounds si existe
+        Vector2 randomOffset = Random.insideUnitCircle * wanderRadius;
+        Vector2 candidate = (Vector2)transform.position + randomOffset;
+
+        if (WorldBounds2D.Instance != null)
+        {
+            WorldBounds2D wb = WorldBounds2D.Instance;
+            candidate.x = Mathf.Clamp(candidate.x, wb.minX + 0.5f, wb.maxX - 0.5f);
+            candidate.y = Mathf.Clamp(candidate.y, wb.minY + 0.5f, wb.maxY - 0.5f);
+        }
+
+        wanderTarget = candidate;
     }
 
     private void Chase()
     {
-        MoveTo(player, chaseSpeed);
+        if (player == null) return;
 
-        float distance = Vector2.Distance(transform.position, player.position);
-        if (distance <= attackRange)
+        float dist = DistanceToPlayer();
+
+        // Transición → Attack (entró en rango de disparo)
+        if (dist <= shootRange)
         {
             ChangeState(EnemyState.Attack);
             return;
         }
 
-        if (distance > detectionRange)
+        // Transición → Wander (jugador escapó)
+        if (dist > detectionRange)
         {
-            ChangeState(EnemyState.Patrol);
+            PickNewWanderTarget();
+            ChangeState(EnemyState.Wander);
+            return;
         }
+
+        MoveTo(player.position, chaseSpeed);
     }
 
     private void Attack()
     {
-        float distance = Vector2.Distance(transform.position, player.position);
+        if (player == null) return;
 
-        // Solo iniciamos el Dash si el cooldown termin� y no estamos ya en uno
-        attackTimer -= Time.deltaTime;
+        float dist = DistanceToPlayer();
 
-        if (attackTimer <= 0f && !isDashing)
-        {
-            // 1. Calculamos la direcci�n hacia el jugador
-            Vector2 attackDirection = (player.position - transform.position).normalized;
-
-            // 2. Iniciamos la l�gica de desplazamiento y animaci�n
-            StartCoroutine(PerformDashAttack(attackDirection));
-
-            attackTimer = attackCooldown;
-        }
-
-        // Si no est� haciendo el dash y el jugador se alej� mucho, volver a Chase
-        if (!isDashing && distance > attackRange * 1.5f)
+        // Transición → Chase (jugador escapó del rango)
+        if (dist > shootRange * 1.2f)
         {
             ChangeState(EnemyState.Chase);
+            return;
+        }
+
+        // Mantener distancia: retroceder si el jugador está demasiado cerca
+        if (dist < keepDistance)
+        {
+            Vector2 awayDir = ((Vector2)transform.position - (Vector2)player.position).normalized;
+            MoveTo((Vector2)transform.position + awayDir, retreatSpeed);
+        }
+        else
+        {
+            // Estamos en la distancia óptima: mirar al jugador pero no movernos
+            Vector2 lookDir = ((Vector2)player.position - (Vector2)transform.position).normalized;
+            UpdateVisuals(lookDir, isMoving: false);
+        }
+
+        // Disparo con cooldown
+        fireTimer -= Time.deltaTime;
+        if (fireTimer <= 0f)
+        {
+            Shoot();
+            fireTimer = fireCooldown;
         }
     }
 
-    private void MoveTo(Transform target, float speed)
-    {
-        Vector2 direction = (target.position - transform.position).normalized;
-        transform.position += (Vector3)(direction * speed * Time.deltaTime);
+    // ─────────────────────────────────────────────
+    //  DISPARO
+    // ─────────────────────────────────────────────
 
-        UpdateEnemyVisuals(direction);
+    private void Shoot()
+    {
+        if (bulletPrefab == null || player == null) return;
+
+        // Punto de origen: firePoint si existe, si no el propio transform
+        Vector3 origin = firePoint != null ? firePoint.position : transform.position;
+        Vector2 direction = ((Vector2)player.position - (Vector2)origin).normalized;
+
+        GameObject bulletGO = Instantiate(bulletPrefab, origin, Quaternion.identity);
+        Bullet bullet = bulletGO.GetComponent<Bullet>();
+
+        if (bullet != null)
+            bullet.SetUp(direction, targetTag: "Player", damage: bulletDamage, speed: bulletSpeed);
+
+        // Animación de disparo: cuando tengas el sprite listo, crea tu propio trigger aquí
     }
 
-    private void UpdateEnemyVisuals(Vector2 direction)
+    // ─────────────────────────────────────────────
+    //  MOVIMIENTO Y VISUALS
+    // ─────────────────────────────────────────────
+
+    private void MoveTo(Vector2 targetPos, float speed)
     {
-        if (animator == null || isDashing) return; // Si est� en pleno Dash, no actualizamos caminar/idle
+        Vector2 direction = (targetPos - (Vector2)transform.position).normalized;
+        transform.position += (Vector3)(direction * speed * Time.deltaTime);
+        UpdateVisuals(direction, isMoving: true);
+    }
 
-        bool moving = direction.sqrMagnitude > 0.01f;
-        animator.SetBool(HashIsMoving, moving);
+    private void UpdateVisuals(Vector2 direction, bool isMoving)
+    {
+        if (animator == null) return;
 
-        if (moving)
+        animator.SetBool(HashIsMoving, isMoving);
+
+        if (isMoving)
         {
             animator.SetFloat(HashMoveX, direction.x);
             animator.SetFloat(HashMoveY, direction.y);
-
-            if (spriteRenderer != null)
-            {
-                spriteRenderer.flipX = direction.x < 0f; // Ajusta seg�n tu sprite
-            }
         }
-    
 
-    //  (spriteRenderer != null)
-    // {
-    spriteRenderer.transform.localEulerAngles = Vector3.zero;
-
-            // Solo hacemos Flip si hay movimiento lateral significativo
-            if (moving && Mathf.Abs(direction.x) < 0.1f)
-            {
-                spriteRenderer.flipX = direction.x > 0f;
-            }
-    }
-
-    private IEnumerator PerformDashAttack(Vector2 direction)
-    {
-        isDashing = true;
-        if (animator != null) animator.SetTrigger(HashAttackTrigger);
-
-        // Calculamos la fuerza del impacto
-        // Usamos velocidad f�sica en lugar de Lerp para que el motor de f�sica trabaje
-        float dashForce = dashDistance / dashDuration;
-        if (rb != null)
-            rb.linearVelocity = direction * dashForce;
-        else
-            transform.position += (Vector3)(direction * dashForce * Time.deltaTime); // fallback
-
-        // Esperamos a que pase el tiempo del dash
-        yield return new WaitForSeconds(dashDuration);
-
-        if (rb != null) rb.linearVelocity = Vector2.zero; // usar velocity, no linearVelocity
-        isDashing = false;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Verificamos si estamos en Dash y si chocamos con el Player
-        if (isDashing && ((playerLayer.value & (1 << collision.gameObject.layer)) != 0))
+        if (spriteRenderer != null)
         {
-            PlayerHealth health = collision.gameObject.GetComponent<PlayerHealth>();
-            if (health != null)
-            {
-                health.TakeDamage(damagePerHit);
+            // Flip horizontal según la dirección X
+            if (Mathf.Abs(direction.x) > 0.1f)
+                spriteRenderer.flipX = direction.x < 0f;
 
-                // IMPORTANTE: Detenemos el dash al impactar para que no lo atraviese
-                isDashing = false;
-                    if (rb != null) rb.linearVelocity = Vector2.zero; // corregido
-                Debug.Log("�Impacto f�sico detectado!");
-            }
+            // Asegurar que nunca haya rotación accidental del sprite
+            spriteRenderer.transform.localEulerAngles = Vector3.zero;
         }
     }
 
-    // Para que puedas ver el radio de ataque en el Editor (color rojo)
+    // ─────────────────────────────────────────────
+    //  UTILIDADES
+    // ─────────────────────────────────────────────
+
+    private void ChangeState(EnemyState nextState)
+    {
+        currentState = nextState;
+        Debug.Log($"[Enemy FSM] → {currentState}");
+    }
+
+    private float DistanceToPlayer()
+    {
+        if (player == null) return Mathf.Infinity;
+        return Vector2.Distance(transform.position, player.position);
+    }
+
+    // Gizmos para visualizar rangos en el Editor
     private void OnDrawGizmosSelected()
     {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
+
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackCheckRadius);
+        Gizmos.DrawWireSphere(transform.position, shootRange);
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, keepDistance);
     }
 }
