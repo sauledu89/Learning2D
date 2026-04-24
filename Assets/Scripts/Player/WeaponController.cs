@@ -88,21 +88,21 @@ public class WeaponController : MonoBehaviour
         if (fireTimer > 0f) return;
         if (bulletPrefab == null || firePoint == null) return;
 
-        // Dirección desde el FirePoint hacia el mouse (no desde el centro del arma)
         Vector2 mouseWorld = mainCam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 direction = (mouseWorld - (Vector2)firePoint.position).normalized;
 
         GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
-
         if (bullet != null)
             bullet.SetUp(direction, targetTag: "Enemy", damage: bulletDamage, speed: bulletSpeed);
 
-        // Ignorar colisión física con todos los colliders del jugador
         Collider2D bulletCol = bulletGO.GetComponent<Collider2D>();
         if (bulletCol != null && playerColliders != null)
             foreach (Collider2D pc in playerColliders)
                 if (pc != null) Physics2D.IgnoreCollision(bulletCol, pc);
+
+        // ── GAME FEEL ──
+        AudioManager.Instance?.PlayPlayerShoot();
 
         fireTimer = fireCooldown;
     }

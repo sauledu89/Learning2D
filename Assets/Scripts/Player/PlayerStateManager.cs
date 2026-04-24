@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -27,11 +26,6 @@ public class PlayerStateManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private TextMeshProUGUI txtStateDebug;
-
-    [Header("Weapon")]
-    [Tooltip("GameObject hijo del jugador que contiene el WeaponController. Se oculta durante el Dodge Roll.")]
-    [SerializeField] private GameObject weaponObject;
 
     [Header("World Wrap")]
     [SerializeField] private WorldBounds2D world;
@@ -82,9 +76,6 @@ public class PlayerStateManager : MonoBehaviour
             case PlayerState.Dodging: HandleDodging(); break;
             case PlayerState.Dead: break;
         }
-
-        if (txtStateDebug != null)
-            txtStateDebug.text = $"Player State: {currentState}";
     }
 
     private void FixedUpdate()
@@ -119,7 +110,7 @@ public class PlayerStateManager : MonoBehaviour
 
         moveInput = new Vector2(x, y).normalized;
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame
+        if (Mouse.current.rightButton.wasPressedThisFrame
             && currentState != PlayerState.Dodging
             && cooldownTimer <= 0
             && moveInput.sqrMagnitude > 0.1f)
@@ -161,15 +152,12 @@ public class PlayerStateManager : MonoBehaviour
         cooldownTimer = rollCooldown;
         rollDirection = moveInput;
         animator.SetTrigger(HashDoRoll);
-
         gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
-        if (weaponObject != null) weaponObject.SetActive(false);
     }
 
     private void EndDodgeInvulnerability()
     {
         gameObject.layer = LayerMask.NameToLayer("Player");
-        if (weaponObject != null) weaponObject.SetActive(true);
     }
 
     public void OnPlayerDeath()

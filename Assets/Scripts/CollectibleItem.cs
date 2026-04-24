@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class CollectibleItem : MonoBehaviour
@@ -32,6 +32,9 @@ public class CollectibleItem : MonoBehaviour
 
         if (goalManager != null)
             goalManager.RegisterCollectible(value);
+
+        // ── GAME FEEL ──
+        AudioManager.Instance?.PlayCollectible();
 
         if (disableInsteadOfDestroy) gameObject.SetActive(false);
         else Destroy(gameObject);

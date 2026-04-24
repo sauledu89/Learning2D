@@ -1,19 +1,53 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    [Header("UI")]
+    public static ScoreManager Instance { get; private set; }
+
+    [Header("UI en partida")]
     [SerializeField] private TMP_Text scoreText;
 
-    [Header("Current Score")]
-    [SerializeField] private int score = 0;
-
-    [Header("Survival Score")]
+    [Header("Puntuación base")]
     [SerializeField] private int survivalScorePerTick = 1;
     [SerializeField] private float survivalTickInterval = 1.0f;
 
+    [Header("Kills")]
+    [SerializeField] private int pointsPerKill = 50;
+
+    // ── Totales ─────────────────────────────────────────────
+    private int score = 0;
+
+    // ── Desglose por categoría ───────────────────────────────
+    private int survivalScore = 0;
+    private int collectibleScore = 0;
+    private int killScore = 0;
+    private int victoryBonusScore = 0;
+    private int healthBonusScore = 0;
+
+    // ── Contadores extra ─────────────────────────────────────
+    private int collectiblesCount = 0;
+    private int enemiesKilled = 0;
+    private float survivalTime = 0f;
     private float survivalTimer = 0f;
+
+    // ── Propiedades públicas (para el panel de victoria) ─────
+    public int Score => score;
+    public int SurvivalScore => survivalScore;
+    public int CollectibleScore => collectibleScore;
+    public int KillScore => killScore;
+    public int VictoryBonusScore => victoryBonusScore;
+    public int HealthBonusScore => healthBonusScore;
+    public int CollectiblesCount => collectiblesCount;
+    public int EnemiesKilled => enemiesKilled;
+    public float SurvivalTime => survivalTime;
+
+    // ────────────────────────────────────────────────────────
+    private void Awake()
+    {
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+        Instance = this;
+    }
 
     private void Start() => UpdateUI();
 
@@ -21,38 +55,60 @@ public class ScoreManager : MonoBehaviour
     {
         if (GameFlowManager.Instance == null || !GameFlowManager.Instance.IsGameplay) return;
 
+        survivalTime += Time.deltaTime;
         survivalTimer += Time.deltaTime;
+
         if (survivalTimer >= survivalTickInterval)
         {
             survivalTimer -= survivalTickInterval;
-            AddScore(survivalScorePerTick);
+            AddSurvivalScore(survivalScorePerTick);
         }
     }
 
-    public void AddScore(int amount)
+    // ── Métodos por categoría ────────────────────────────────
+
+    public void AddSurvivalScore(int amount)
     {
         if (amount <= 0) return;
-        score += amount;
-        UpdateUI();
+        survivalScore += amount;
+        AddScore(amount);
     }
 
-    // M�TODOS DE BONUS CON IMPRESI�N EN CONSOLA
-    // Dentro de ScoreManager.cs
+    public void AddCollectibleScore(int amount)
+    {
+        if (amount <= 0) return;
+        collectiblesCount++;
+        collectibleScore += amount;
+        AddScore(amount);
+    }
+
+    public void RegisterKill()
+    {
+        enemiesKilled++;
+        killScore += pointsPerKill;
+        AddScore(pointsPerKill);
+    }
 
     public void AddVictoryBonus(int amount)
     {
-        Debug.Log("<color=green>[SCORE] Bonus por Victoria: +" + amount + "</color>");
-        AddScore(amount); // Suma el valor a la variable score
+        victoryBonusScore += amount;
+        AddScore(amount);
     }
 
     public void AddHealthBonus(int currentHP, int pointsPerHP)
     {
-        int bonusValue = currentHP * pointsPerHP;
-        Debug.Log("<color=cyan>[SCORE] Bonus por Vida: " + currentHP + " HP x " + pointsPerHP + " pts = +" + bonusValue + "</color>");
-        AddScore(bonusValue);
+        int bonus = currentHP * pointsPerHP;
+        healthBonusScore += bonus;
+        AddScore(bonus);
+    }
 
-        // Este Log confirmar� que el score final subi�
-        Debug.Log("<color=yellow>[SCORE] TOTAL FINAL CALCULADO: " + score + "</color>");
+    // ── Interno ──────────────────────────────────────────────
+
+    private void AddScore(int amount)
+    {
+        if (amount <= 0) return;
+        score += amount;
+        UpdateUI();
     }
 
     private void UpdateUI()

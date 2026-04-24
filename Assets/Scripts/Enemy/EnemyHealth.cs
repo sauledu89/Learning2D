@@ -1,9 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// Gestiona la vida del enemigo.
 /// Al morir, puede soltar un prefab de runa con una probabilidad configurable.
-/// Avisa al EnemyStateManager para que deje de procesar l�gica.
+/// Avisa al EnemyStateManager para que deje de procesar lógica.
 /// </summary>
 public class EnemyHealth : MonoBehaviour
 {
@@ -55,6 +55,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHP <= 0)
             Die();
+
+        AudioManager.Instance?.PlayEnemyHurt();
     }
 
     private void Die()
@@ -62,20 +64,19 @@ public class EnemyHealth : MonoBehaviour
         if (isDead) return;
         isDead = true;
 
-        // Desactivamos la IA para que no siga procesando
         if (stateManager != null)
             stateManager.enabled = false;
 
-        // Drop de runa con probabilidad
         if (runaPrefab != null && Random.value <= dropChance)
             Instantiate(runaPrefab, transform.position, Quaternion.identity);
 
-        // Avisamos al spawner antes de destruirnos
-        OnDeath?.Invoke();
+        // ── NUEVO ──
+        ScoreManager.Instance?.RegisterKill();
+        AudioManager.Instance?.PlayEnemyDeath();
 
+        OnDeath?.Invoke();
         Destroy(gameObject);
     }
-
     private System.Collections.IEnumerator FlashHurt()
     {
         if (spriteRenderer != null)

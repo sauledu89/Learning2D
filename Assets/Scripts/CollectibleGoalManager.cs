@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class CollectibleGoalManager : MonoBehaviour
@@ -22,15 +22,15 @@ public class CollectibleGoalManager : MonoBehaviour
 
         collected++;
 
-        if (scoreManager != null)
-            scoreManager.AddScore(value);
+        // Usar Instance como fallback si el campo serializado no está asignado
+        ScoreManager sm = scoreManager != null ? scoreManager : ScoreManager.Instance;
+        sm?.AddCollectibleScore(value);
 
         UpdateObjectiveUI();
 
         if (collected >= collectiblesToWin)
         {
-            if (GameFlowManager.Instance != null)
-                GameFlowManager.Instance.RequestVictory();
+            GameFlowManager.Instance?.RequestVictory();
         }
     }
 

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem; // Necesario para detectar la tecla Esc/P
@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameFlowManager : MonoBehaviour
 {
-    // A�adimos el estado Paused
+    // Añadimos el estado Paused
     public enum GameState { Gameplay, GameOver, Victory, Paused, Options }
 
     public static GameFlowManager Instance { get; private set; }
@@ -27,6 +27,14 @@ public class GameFlowManager : MonoBehaviour
     [SerializeField] private GameObject optionsPanel; // Panel de Opciones
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject victoryPanel;
+
+    [Header("Victory — Desglose de puntuación")]
+    [SerializeField] private TMPro.TMP_Text victoryScoreText;     // total (ya lo tienes)
+    [SerializeField] private TMPro.TMP_Text victorySurvivalText;
+    [SerializeField] private TMPro.TMP_Text victoryCollectiblesText;
+    [SerializeField] private TMPro.TMP_Text victoryKillsText;
+    [SerializeField] private TMPro.TMP_Text victoryBonusText;
+    [SerializeField] private TMPro.TMP_Text victoryHealthText;
 
     [Header("Delays (seconds)")]
     [SerializeField] private float gameOverDelay = 1.0f;
@@ -68,14 +76,14 @@ public class GameFlowManager : MonoBehaviour
         }
     }
 
-    // --- L�GICA DE PAUSA ---
+    // --- LÓGICA DE PAUSA ---
 
     public void PauseGame()
     {
         if (!IsGameplay) return; // No pausar si ya morimos o ganamos
 
         SetState(GameState.Paused);
-        Time.timeScale = 0f; // Congela el motor de f�sica y tiempo
+        Time.timeScale = 0f; // Congela el motor de física y tiempo
         ShowPanels(pause: true);
     }
 
@@ -95,7 +103,7 @@ public class GameFlowManager : MonoBehaviour
         ShowPanels(options: true);
     }
 
-    // --- L�GICA DE FIN DE PARTIDA ---
+    // --- LÓGICA DE FIN DE PARTIDA ---
 
     public void RequestGameOver()
     {
@@ -106,29 +114,51 @@ public class GameFlowManager : MonoBehaviour
 
     public void RequestVictory()
     {
-        // 1. Verificaci�n de seguridad
         if (currentState != GameState.Gameplay) return;
 
-        Debug.Log("<color=orange>--- INICIANDO C�LCULO DE PUNTOS FINALES ---</color>");
+        // ── Calcular puntos ──────────────────────────────────────
+        ScoreManager sm = ScoreManager.Instance; // Usar singleton como fuente de verdad
 
-        // 2. PROCESAR PUNTOS PRIMERO (Antes de cambiar el estado)
-        if (scoreManager != null)
+        if (sm != null)
         {
-            // Bonus fijo por ganar
-            scoreManager.AddVictoryBonus(victoryBonus);
+            sm.AddVictoryBonus(victoryBonus);
 
-            // Bonus por vida restante
             if (playerHealth != null)
-            {
-                scoreManager.AddHealthBonus(playerHealth.CurrentHP, healthBonusPerHP);
-            }
+                sm.AddHealthBonus(playerHealth.CurrentHP, healthBonusPerHP);
+
+            // Formatear tiempo
+            int min = (int)(sm.SurvivalTime / 60f);
+            int sec = (int)(sm.SurvivalTime % 60f);
+
+            if (victorySurvivalText != null)
+                victorySurvivalText.text =
+                    $"Supervivencia  {min:00}:{sec:00}  →  {sm.SurvivalScore} pts";
+
+            if (victoryKillsText != null)
+                victoryKillsText.text =
+                    $"Enemigos  ×{sm.EnemiesKilled}  →  {sm.KillScore} pts";
+
+            if (victoryCollectiblesText != null)
+                victoryCollectiblesText.text =
+                    $"Coleccionables  ×{sm.CollectiblesCount}  →  {sm.CollectibleScore} pts";
+
+            if (victoryBonusText != null)
+                victoryBonusText.text =
+                    $"Bonus victoria  →  +{sm.VictoryBonusScore} pts";
+
+            if (victoryHealthText != null)
+                victoryHealthText.text =
+                    $"Bonus de vida  →  +{sm.HealthBonusScore} pts";
+
+            if (victoryScoreText != null)
+                victoryScoreText.text = $"TOTAL: {sm.Score}";
         }
         else
         {
-            Debug.LogError("�ERROR! El ScoreManager no est� asignado en el Inspector.");
+            Debug.LogError("[GameFlowManager] ScoreManager.Instance es null.");
         }
 
-        // 3. CAMBIAR EL ESTADO Y TERMINAR (Ahora s� el juego puede detenerse)
+        // ── SIEMPRE se ejecuta, independiente del scoreManager ──
         if (endRoutine != null) StopCoroutine(endRoutine);
         endRoutine = StartCoroutine(EndRoutine(GameState.Victory, victoryDelay));
     }
@@ -139,7 +169,7 @@ public class GameFlowManager : MonoBehaviour
         DisableGameplayControllers();
 
         // 2. Esperamos el delay usando 'Realtime' porque si bajamos el tiempo a 0, 
-        // un WaitForSeconds normal se quedar�a esperando para siempre.
+        // un WaitForSeconds normal se quedaría esperando para siempre.
         yield return new WaitForSecondsRealtime(Mathf.Max(0f, delay));
 
         // 3. Cambiamos el estado
@@ -148,10 +178,10 @@ public class GameFlowManager : MonoBehaviour
         // 4. CONGELAMOS EL TIEMPO GLOBAL
         Time.timeScale = 0f;
 
-        // 5. Congelamos c�maras
+        // 5. Congelamos cámaras
         if (cameraFollow != null) cameraFollow.SetFrozen(true);
-        // Si tienes la MinimapFollow2D en el inspector, aseg�rate de congelarla tambi�n
-        // (Podr�as a�adir una referencia similar a la de cameraFollow)
+        // Si tienes la MinimapFollow2D en el inspector, asegúrate de congelarla también
+        // (Podrías añadir una referencia similar a la de cameraFollow)
 
         if (endState == GameState.GameOver) ShowPanels(gameOver: true);
         else ShowPanels(victory: true);
@@ -189,7 +219,7 @@ public class GameFlowManager : MonoBehaviour
     public void BackToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0); // Carga la escena con �ndice 0 (Men�)
+        SceneManager.LoadScene(0); // Carga la escena con índice 0 (Menú)
     }
 
     public void QuitToDesktop()
